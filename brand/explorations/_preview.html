@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Primeira Geração — explorations</title>
+<style>
+  body{margin:0;background:#F6F4EF;color:#1A1916;font:13px/1.4 "Segoe UI",sans-serif}
+  h1{font-size:16px;font-weight:600;margin:20px 24px 8px}
+  section{padding:8px 24px 28px}
+  h2{font-size:14px;margin:0 0 10px}
+  .row{display:flex;align-items:flex-end;gap:24px;flex-wrap:wrap}
+  .cap{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#5C564C;margin-top:6px}
+  .tile{background:#1F4D3A;display:grid;place-items:center}
+  .px{image-rendering:pixelated}
+</style>
+</head>
+<body>
+<h1>Primeira Geração — 512 / 64 / 16, nearest-neighbor enlarge, home-screen tile</h1>
+<section><h2>A Cantaria</h2><div class="row" id="a"></div></section>
+<section><h2>B Alicerce</h2><div class="row" id="b"></div></section>
+<section><h2>C Junta</h2><div class="row" id="c"></div></section>
+<section><h2>D Pedestal</h2><div class="row" id="d"></div></section>
+<script>
+var G = "#1F4D3A";
+var CREAM = "#F4F1EA";
+
+function svg(rects, size, fill) {
+  var r = rects.map(function (b) {
+    return '<rect x="' + b[0] + '" y="' + b[1] + '" width="' + b[2] + '" height="' + b[3] + '"/>';
+  }).join("");
+  return '<svg xmlns="http://www.w3.org/2000/svg" width="' + size + '" height="' + size + '" viewBox="0 0 48 48" fill="' + fill + '">' + r + "</svg>";
+}
+function cell(label, html) {
+  return '<div><div>' + html + '</div><div class="cap">' + label + "</div></div>";
+}
+function dataUri(markup) {
+  return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(markup);
+}
+function show(id, rects) {
+  var mark = function (n) { return svg(rects, n, G); };
+  var big = '<img class="px" width="160" height="160" alt="" src="' + dataUri(svg(rects, 16, G)) + '"/>';
+  var tile = '<div class="tile" style="width:64px;height:64px;border-radius:14px">' + svg(rects, 42, CREAM) + "</div>";
+  var tile16 = '<div class="tile" style="width:16px;height:16px;border-radius:3px">' + svg(rects, 12, CREAM) + "</div>";
+  document.getElementById(id).innerHTML = [
+    cell("512", mark(512)),
+    cell("64", mark(64)),
+    cell("16", mark(16)),
+    cell("16 ×10", big),
+    cell("tile 64", tile),
+    cell("tile 16", tile16)
+  ].join("");
+}
+
+// 1px = 3 units. Bitmaps below are described in units directly.
+
+// A. Square-counter P. Stem 4px, walls 4px, counter 6×6, 1px side margin.
+// pixels: stem x1-4, right x11-14, counter x5-10 y3-8, bars y0-2 and y9-11, stem through y15.
+show("a", [
+  [3, 0, 12, 48],
+  [3, 0, 42, 9],
+  [33, 0, 12, 36],
+  [3, 27, 42, 9]
+]);
+
+// B. Numeral 1: short cap, shaft, foundation course separated by a joint.
+// cap y0-1 x5-10 (6px), shaft x6-9 (4px) y2-11, gap y12-13, base x2-13 y14-15.
+show("b", [
+  [15, 0, 18, 6],
+  [18, 6, 12, 30],
+  [6, 42, 36, 6]
+]);
+
+// C. P in two courses. Bowl is one stone. Shaft is the next, with a 2px joint.
+// Bowl y0-10 (same geometry as A but shorter). Joint y11-12. Shaft x1-4 y13-15.
+show("c", [
+  [3, 0, 12, 33],
+  [3, 0, 42, 9],
+  [33, 0, 12, 24],
+  [3, 18, 42, 9],
+  [3, 39, 12, 9]
+]);
+
+// D. Column on two widening courses (foundation), no cap.
+show("d", [
+  [18, 0, 12, 27],
+  [12, 30, 24, 6],
+  [6, 39, 36, 9]
+]);
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+---
+description: Contexto do Portal Tiago para o Cursor
+alwaysApply: true
+---
+
+# Portal Tiago — contexto do projeto
+
+Portal financeiro pessoal de um único usuário (Tiago). Next.js (App Router) + Supabase + Claude API + brapi.dev, deploy na Vercel. Interface e textos em português do Brasil.
+
+## Arquitetura
+- `public/portal.js` é o app inteiro em JavaScript puro (sem React). Ele desenha as abas com `innerHTML` dentro de `#nav` e `#root` e usa delegação de eventos (`data-*` nos botões). Ao mudar algo, chame `commit()` (renderiza e salva).
+- O estado inteiro é um objeto `S` (ver `DEFAULT` no topo do `portal.js`). Ele é salvo como um único JSON na tabela `portal_state` (id `"tiago"`) via `PUT /api/state`, com debounce. Sem `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY`, o mesmo JSON fica em `data/portal-state.json`.
+- `middleware.ts` exige login em todas as páginas e APIs, menos `/login` e `/api/login`. Sessão = cookie HMAC (`lib/session.ts`).
+- Segredos só no servidor: `SUPABASE_SERVICE_ROLE_KEY`, `ANTHROPIC_API_KEY`, `BRAPI_TOKEN`. Nunca expor no navegador nem usar prefixo `NEXT_PUBLIC_`.
+
+## Regras do sistema financeiro (não mudar sem o Tiago pedir)
+- Recebe semanalmente aos sábados. O "sábado do aluguel" é o último sábado antes do dia 5 (só aluguel). Os sábados seguintes executam a cascata em ordem: consórcio → acordos → caixinha Lance (até a meta) → Reserva → ARCA. Cada sábado continua de onde o anterior parou (`semana()` / `waterfall()`).
+- ARCA (método Thiago Nigro): 25% em cada letra — A: BOVA11, R: FIIs em rodízio mensal (HGLG11, XPML11, KNRI11, KNCR11), C: Tesouro IPCA+ 2035, I: IVVB11. O aporte vai para a letra mais abaixo de 25%. Vender para rebalancear só se uma letra ficar fora de 15%–35% por ~6 meses.
+- 3 fases: Construção (lance + reserva), Crescimento (ARCA + caixinha Apartamento), Liberdade.
+- O assistente segue Buffett/Graham (investidor defensivo, não reagir a oscilações) e não é recomendação de investimento.
+
+## Estilo
+- Paleta, tipo e movimento em `DESIGN.md` e `public/portal.css`. O verde `#1F4D3A` é a marca. Os aliases `--green`, `--mint`, `--amber`, `--blue`, `--plum`, `--paper`, `--card`, `--ink`, `--muted`, `--line` e `--red` continuam válidos no markup.
+- Mobile primeiro. Toques grandes, textos curtos. O guia vivo fica em `/design`.
