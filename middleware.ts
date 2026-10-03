@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { cronAutorizado } from "@/lib/briefing/cron";
 import { COOKIE, verifyToken } from "@/lib/session";
 
 // Tudo exige login, menos a página de login, a rota de login e os arquivos públicos do app.
@@ -10,9 +11,17 @@ export async function middleware(req: NextRequest) {
     pathname === "/manifest.webmanifest" ||
     pathname === "/portal.css" ||
     pathname === "/portal.js" ||
+    pathname === "/sw.js" ||
     pathname === "/motion.js" ||
     pathname.startsWith("/icon");
   if (open) return NextResponse.next();
+
+  if (pathname.startsWith("/api/cron")) {
+    if (!cronAutorizado(req.headers.get("authorization"))) {
+      return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+    }
+    return NextResponse.next();
+  }
 
   const ok = await verifyToken(req.cookies.get(COOKIE)?.value);
   if (ok) return NextResponse.next();

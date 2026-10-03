@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Public+Sans:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="/portal.css?v=4" />
+        <link rel="stylesheet" href="/portal.css?v=19" />
         <Script src="/motion.js" strategy="beforeInteractive" />
         <link rel="apple-touch-icon" href="/icon-192.png" />
       </head>

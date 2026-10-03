@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { claudeClient, claudeModel } from "@/lib/claude";
+import { registrarUso, somarTokens } from "@/lib/agent/uso";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -96,12 +97,17 @@ ${relato}`;
     });
     const pedaco = msg.content.find((b) => b.type === "text");
     const bruto = pedaco && pedaco.type === "text" ? pedaco.text : "";
+    const acc = { entrada: 0, saida: 0 };
+    somarTokens(msg.usage, acc);
     const json = lerJson(bruto);
     if (!json) {
+      void registrarUso({ dia: new Date().toISOString().slice(0, 10), origem: "checkin", ferramentas: [], erro: true, entrada: acc.entrada, saida: acc.saida });
       return NextResponse.json({ error: "Não consegui organizar o relato. Tente de novo." }, { status: 422 });
     }
+    void registrarUso({ dia: new Date().toISOString().slice(0, 10), origem: "checkin", ferramentas: [], erro: false, entrada: acc.entrada, saida: acc.saida });
     return NextResponse.json(validar(json));
   } catch {
+    void registrarUso({ dia: new Date().toISOString().slice(0, 10), origem: "checkin", ferramentas: [], erro: true, entrada: 0, saida: 0 });
     return NextResponse.json({ error: "Não consegui organizar o relato agora." }, { status: 502 });
   }
 }

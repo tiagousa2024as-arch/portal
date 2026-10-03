@@ -5,5 +5,13 @@ node_modules
 .vercel
 *.log
 data/portal-state.json
+data/agent-memory.json
+data/briefings.json
+data/push-subscriptions.json
+data/push-envios.json
+data/ai-logs.json
 data/*.tmp
 data/sonhos/
+
+.vercel
+.env*

@@ -1,5 +1,5 @@
 (function(){
-  var DEFAULT={"tab": "inicio", "cfg": {"entrada": 10000, "cambio": 5, "consorcio": 1075.68, "lanceMensal": 3300, "lanceMeta": 20000, "reservaMeta": 0, "pctReserva": 0.625, "taxa": 0.05, "idade": 33, "metaMilhao": 1000000, "aptoMeta": 1000000, "carroMeta": 600000, "rendaLiquida": "", "horasMes": "", "esconderSabedoria": false}, "acordos": [{"nome": "Zema", "valor": 614.81, "inicio": "2026-11", "n": 2}, {"nome": "Recovery", "valor": 84.67, "inicio": "2026-10", "n": 47}, {"nome": "Ipanema", "valor": 53.08, "inicio": "2026-10", "n": 18}], "saldos": {"reserva": 76.92, "lance": 1, "apto": 1, "carro": 1, "arcaInvestir": 0, "A": 0, "R": 0, "C": 0, "I": 0, "dividendos": 0}, "aportes": {}, "checkins": {}, "escolhas": [], "sonhos": [], "timeline": [], "cenarios": [], "livros": [{"id": "graham", "titulo": "O Investidor Inteligente", "autor": "Benjamin Graham", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}, {"id": "housel", "titulo": "A Psicologia Financeira", "autor": "Morgan Housel", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}, {"id": "nigro", "titulo": "Do Mil ao Milhão", "autor": "Thiago Nigro", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}, {"id": "clear", "titulo": "Hábitos Atômicos", "autor": "James Clear", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}, {"id": "holiday", "titulo": "O Obstáculo é o Caminho", "autor": "Ryan Holiday", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}], "feitos": {}, "negocios": ["Cráton/Stratum", "OPERO", "Lojas online", "Curso online"], "movs": [], "seq": 1, "ativos": [{"t": "BOVA11", "l": "A", "nome": "ETF Ibovespa", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "HGLG11", "l": "R", "nome": "FII galpões logísticos", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "XPML11", "l": "R", "nome": "FII shoppings", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "KNRI11", "l": "R", "nome": "FII lajes e galpões", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "KNCR11", "l": "R", "nome": "FII títulos imobiliários", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "Tesouro IPCA+ 2035", "l": "C", "nome": "Tesouro Direto", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "IVVB11", "l": "I", "nome": "ETF S&P 500", "qtd": 0, "pm": 0, "preco": 0, "hist": []}]};
+  var DEFAULT={"tab": "inicio", "cfg": {"entrada": 10000, "cambio": 5, "consorcio": 1075.68, "lanceMensal": 3300, "lanceMeta": 20000, "reservaMeta": 0, "pctReserva": 0.625, "taxa": 0.05, "idade": 33, "metaMilhao": 1000000, "aptoMeta": 1000000, "carroMeta": 600000, "rendaLiquida": "", "horasMes": "", "esconderSabedoria": false}, "acordos": [{"nome": "Zema", "valor": 614.81, "inicio": "2026-11", "n": 2}, {"nome": "Recovery", "valor": 84.67, "inicio": "2026-10", "n": 47}, {"nome": "Ipanema", "valor": 53.08, "inicio": "2026-10", "n": 18}], "saldos": {"reserva": 76.92, "lance": 1, "apto": 1, "carro": 1, "arcaInvestir": 0, "A": 0, "R": 0, "C": 0, "I": 0, "dividendos": 0}, "aportes": {}, "checkins": {}, "escolhas": [], "sonhos": [], "timeline": [], "cenarios": [], "livros": [{"id": "graham", "titulo": "O Investidor Inteligente", "autor": "Benjamin Graham", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}, {"id": "housel", "titulo": "A Psicologia Financeira", "autor": "Morgan Housel", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}, {"id": "nigro", "titulo": "Do Mil ao Milhão", "autor": "Thiago Nigro", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}, {"id": "clear", "titulo": "Hábitos Atômicos", "autor": "James Clear", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}, {"id": "holiday", "titulo": "O Obstáculo é o Caminho", "autor": "Ryan Holiday", "status": "quero ler", "inicio": "", "fim": "", "ideia": ""}], "feitos": {}, "negocios": ["Cráton/Stratum", "OPERO", "Lojas online", "Curso online"], "movs": [], "seq": 1, "ativos": [{"t": "BOVA11", "l": "A", "nome": "ETF Ibovespa", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "HGLG11", "l": "R", "nome": "FII galpões logísticos", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "XPML11", "l": "R", "nome": "FII shoppings", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "KNRI11", "l": "R", "nome": "FII lajes e galpões", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "KNCR11", "l": "R", "nome": "FII títulos imobiliários", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "Tesouro IPCA+ 2035", "l": "C", "nome": "Tesouro Direto", "qtd": 0, "pm": 0, "preco": 0, "hist": []}, {"t": "IVVB11", "l": "I", "nome": "ETF S&P 500", "qtd": 0, "pm": 0, "preco": 0, "hist": []}], "caixinhasMov": [], "conferencia": null, "outrasContas": [{"nome": "PicPay", "funcao": "", "saldo": 0}], "avisos": {"sabado": false, "arca": false, "contas": false, "nudge": false, "revisao": false}};
   var S=JSON.parse(JSON.stringify(DEFAULT));
   var brl=new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'});
   var compact=new Intl.NumberFormat('pt-BR',{notation:'compact',maximumFractionDigits:1});
@@ -9,6 +9,31 @@
     var n=typeof v==='number'?v:num(v);
     if(!isFinite(n)) return '';
     return n.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+  }
+  function mascaraMeta(el){
+    var raw=String(el.value);
+    if(raw.trim()==='') return;
+    var caret=el.selectionStart==null?raw.length:el.selectionStart;
+    var commaIn=raw.indexOf(',');
+    var noDecimais=commaIn<0||caret<=commaIn;
+    var body=raw.replace(/\./g,'');
+    var i=body.indexOf(',');
+    var inteiro, dec;
+    if(i>=0){
+      inteiro=body.slice(0,i).replace(/\D/g,'');
+      var decDigits=body.slice(i+1).replace(/\D/g,'');
+      dec=(!noDecimais&&decDigits.length>2)?decDigits.slice(-2):decDigits.slice(0,2);
+    }else{
+      inteiro=body.replace(/\D/g,'');
+      dec='00';
+    }
+    inteiro=inteiro.replace(/^0+(?=\d)/,'');
+    if(!inteiro){ el.value=''; return }
+    var mil=inteiro.replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+    var formatted=(noDecimais&&(dec===''||dec==='00'))?mil+',00':mil+','+dec;
+    el.value=formatted;
+    var pos=(noDecimais&&(dec===''||dec==='00'))?mil.length:formatted.length;
+    if(el.setSelectionRange) el.setSelectionRange(pos,pos);
   }
   function textoQtd(v){
     if(v===''||v==null) return '';
@@ -21,7 +46,7 @@
   var num=function(v){v=String(v==null?'':v).trim(); if(v.indexOf(',')>=0) v=v.replace(/\./g,'').replace(',','.'); v=parseFloat(v); return isFinite(v)?v:0};
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
   var mode='pending', timer=null, pendingDel=null, loaded=false;
-  var view={sab:null, ciDate:null, movTipo:'inv', aiText:'', aiNote:'', aiQ:'', desejoOpen:false, desejoOut:null, desejoPick:false, mural:false, linha:false, estante:false, seExtra:0, seAporte:null, seTaxa:null, vozModo:'off', vozTexto:'', vozInterim:'', vozCampos:null, vozBusy:false, vozLeft:30};
+  var view={sab:null, ciDate:null, movTipo:'inv', aiText:'', aiNote:'', aiQ:'', aiPropostas:[], desejoOpen:false, desejoOut:null, desejoPick:false, mural:false, linha:false, estante:false, seExtra:0, seAporte:null, seTaxa:null, vozModo:'off', vozTexto:'', vozInterim:'', vozCampos:null, vozBusy:false, vozLeft:30, cxHist:'', cxTipo:'todos', cxConf:false, cxForm:'', cxPend:null, insights:null, insightsChave:'', insightsErro:false, insightOk:null, cmdTexto:'', cmdOuvindo:false, cmdBusy:false, cmdLeft:30, cmdResposta:'', cmdProposta:null, cmdRec:null, cmdTimer:null, cmdParar:false, memLembrar:null, memTela:false, memLista:null, memErro:'', memEdit:null, memApagar:null, briefing:null, briefingDia:'', uso:null, usoPediu:false};
   var SAB=[];
   var vozRec=null, vozTimer=null, vozParar=false;
   var ciDraft={};
@@ -105,7 +130,8 @@
     var atual=(ref-last)/864e5>7?0:cur;
     return {atual:atual,melhor:best,total:ds.length,ultima:last};
   }
-  function patrimonio(){var s=S.saldos;return s.reserva+s.lance+s.apto+s.carro+s.arcaInvestir+s.A+s.R+s.C+s.I}
+  function outrasTotal(){var t=0;(Array.isArray(S.outrasContas)?S.outrasContas:[]).forEach(function(c){t+=num(c&&c.saldo)});return t}
+  function patrimonio(){var s=S.saldos;return s.reserva+s.lance+s.apto+s.carro+s.arcaInvestir+s.A+s.R+s.C+s.I+outrasTotal()}
   function arcaTotal(){var s=S.saldos;return s.A+s.R+s.C+s.I}
   function marcos(){
     var st=streaks(), s=S.saldos, C=S.cfg;
@@ -296,11 +322,14 @@
     if(!texto){flash('Não ouvi nada. Tente de novo ou escreva.');view.vozModo='texto';render();return}
     enviarVoz(texto);
   }
+  function micDesenho(){
+    return '<svg class="mic-ico" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6.5 11a5.5 5.5 0 0 0 11 0"/><path d="M12 16.5V20"/><path d="M8.5 20h7"/></svg>';
+  }
   function vozBloco(){
     var h='<div class="voz"><p class="note">Fale por até 30 segundos. Nada é salvo até você tocar em Salvar check-in.</p>';
     if(view.vozModo==='ouvindo'){
       h+='<p id="vozLive" class="voz-live" aria-live="polite">'+esc(((view.vozTexto||'')+' '+(view.vozInterim||'')).trim()||'Ouvindo…')+'</p>';
-      h+='<button type="button" class="main mic" data-act="voz-parar">Parar · <span id="vozCount">'+view.vozLeft+'s</span></button>';
+      h+='<button type="button" class="main mic" data-act="voz-parar">'+micDesenho()+'Parar · <span id="vozCount">'+view.vozLeft+'s</span></button>';
     }else if(view.vozBusy){
       h+='<p class="voz-live" aria-live="polite">'+esc(view.vozTexto||'Organizando o relato…')+'</p>';
       h+='<button type="button" class="main mic" disabled>Organizando…</button>';
@@ -308,7 +337,7 @@
       h+='<label class="field full"><span>Fale pelo ditado do teclado ou escreva aqui</span><textarea id="vozCaixa">'+esc(view.vozTexto||'')+'</textarea></label>';
       h+='<button type="button" class="main mic" data-act="voz-enviar"'+(view.vozBusy?' disabled':'')+'>Preencher o check-in</button>';
     }else{
-      h+='<button type="button" class="main mic" data-act="voz-iniciar">Fazer por voz</button>';
+      h+='<button type="button" class="main mic" data-act="voz-iniciar">'+micDesenho()+'Fazer por voz</button>';
     }
     return h+'</div>';
   }
@@ -328,10 +357,11 @@
     out.push({id:'carro',nome:'Carro dos sonhos',metaRef:'carro',meta:S.cfg.carroMeta,saldo:S.saldos.carro,fixo:true,pmt:livre()});
     (S.sonhos||[]).forEach(function(s){
       if(!s||s.id==='lance'||s.id==='apto'||s.id==='carro') return;
-      var saldo=S.saldos[s.metaRef]!=null?num(S.saldos[s.metaRef]):0;
-      out.push({id:s.id,nome:s.nome||'Sonho',metaRef:s.metaRef||'reserva',meta:num(s.meta),saldo:saldo,fixo:false,pmt:livre()});
+      var ref=s.metaRef==null?'reserva':s.metaRef;
+      var saldo=ref&&S.saldos[ref]!=null?num(S.saldos[ref]):0;
+      out.push({id:s.id,nome:s.nome||'Sonho',metaRef:ref,meta:num(s.meta),saldo:saldo,fixo:false,pmt:livre()});
     });
-    out.forEach(function(c){ c.foto=fotos[c.id]&&fotos[c.id].foto?fotos[c.id].foto:'' });
+    out.forEach(function(c){ var f=fotos[c.id]; c.foto=f&&f.foto?f.foto:''; c.fotoV=f&&f.fotoV?f.fotoV:'' });
     return out;
   }
   function guardarSonho(id,nome,metaRef,foto,meta){
@@ -340,9 +370,31 @@
     S.sonhos.forEach(function(x){ if(x.id===id) s=x });
     if(!s){ s={id:id,nome:nome,foto:foto||'',metaRef:metaRef}; S.sonhos.push(s) }
     s.nome=nome; s.metaRef=metaRef;
-    if(foto) s.foto=foto;
+    if(foto){ s.foto=foto; s.fotoV=Date.now() }
     if(meta!=null) s.meta=meta;
     commit();
+  }
+  function mostrarFotoQuadro(id, src){
+    if(!view.fotoPrevia) view.fotoPrevia={};
+    var anterior=view.fotoPrevia[id];
+    if(anterior&&anterior!==src&&String(anterior).indexOf('blob:')===0) URL.revokeObjectURL(anterior);
+    view.fotoPrevia[id]=src;
+    document.querySelectorAll('[data-sonho-foto]').forEach(function(input){
+      if(input.getAttribute('data-sonho-foto')!==id) return;
+      var card=input.closest('.sonho-card');
+      if(!card) return;
+      var img=card.querySelector('img.sonho-foto');
+      if(!img){
+        img=document.createElement('img');
+        img.className='sonho-foto';
+        var nome=card.querySelector('h3');
+        img.alt=nome?nome.textContent:'Sonho';
+        var ph=card.querySelector('.sonho-ph');
+        if(ph) ph.replaceWith(img);
+        else card.insertBefore(img, card.firstChild);
+      }
+      img.src=src;
+    });
   }
   function reduzirFoto(file,cb){
     var url=URL.createObjectURL(file), img=new Image();
@@ -359,38 +411,52 @@
   function sonhoCard(c,cheio){
     var pc=c.meta>0?Math.min(100,c.saldo/c.meta*100):0;
     var h='<article class="card sonho-card">';
-    if(c.foto) h+='<img class="sonho-foto" src="/api/imagem?path='+encodeURIComponent(c.foto)+'" alt="'+esc(c.nome)+'">';
+    var previa=view.fotoPrevia&&view.fotoPrevia[c.id];
+    var src=previa||(c.foto?'/api/imagem?path='+encodeURIComponent(c.foto)+(c.fotoV?'&v='+encodeURIComponent(c.fotoV):''):'');
+    if(src) h+='<img class="sonho-foto" src="'+src+'" alt="'+esc(c.nome)+'">';
     else h+='<div class="sonho-ph"><span>Uma foto deste sonho</span></div>';
     h+='<h3>'+esc(c.nome)+'</h3>';
     h+='<b class="num">'+money(c.saldo)+'</b>';
     h+='<div class="bar" style="--c:var(--plum)"><i style="width:'+pc.toFixed(2)+'%"></i></div>';
     h+='<small class="num">'+(c.meta>0?'de '+money(c.meta):'meta a definir')+'</small>';
-    h+='<p class="sonho-quando">'+esc(quandoSonho(c.pmt,c.saldo,c.meta))+'</p>';
-    if(cheio){
-      h+='<label class="ghost sonho-up">Escolher foto<input type="file" accept="image/*" data-sonho-foto="'+esc(c.id)+'" hidden></label>';
-      if(!c.fixo){
-        var del=pendingDel==='s:'+c.id;
-        h+='<button type="button" class="mini'+(del?' warn':'')+'" data-act="sonho-del" data-sonho="'+esc(c.id)+'">'+(del?'Confirmar remoção':'Remover')+'</button>';
-      }
+    h+='<p class="sonho-quando">'+esc(c.meta>0?quandoSonho(c.pmt,c.saldo,c.meta):'Sem data estimada ainda.')+'</p>';
+    h+='<label class="ghost sonho-up">Escolher foto<input type="file" accept="image/*" data-sonho-foto="'+esc(c.id)+'" hidden></label>';
+    if(cheio&&!c.fixo){
+      var del=pendingDel==='s:'+c.id;
+      h+='<button type="button" class="mini'+(del?' warn':'')+'" data-act="sonho-del" data-sonho="'+esc(c.id)+'">'+(del?'Confirmar remoção':'Remover')+'</button>';
     }
     return h+'</article>';
   }
+  function sonhosClasse(){
+    var n=sonhosLista().length;
+    if(n<=3) return 'is-lg';
+    if(n<=6) return 'is-md';
+    return 'is-sm';
+  }
+  function sonhosExtras(){
+    return (S.sonhos||[]).filter(function(s){ return s&&s.id&&s.id!=='lance'&&s.id!=='apto'&&s.id!=='carro' });
+  }
+  function sonhosQtde(){
+    var n=sonhosLista().length, pode=sonhosExtras().length>0;
+    return '<div class="sonhos-qtde" role="group" aria-label="Quantidade de quadros dos sonhos"><span>Quantidade de quadros</span><div class="sonhos-qtde-ctrl"><button type="button" class="mini" data-act="sonho-menos"'+(pode?'':' disabled')+' aria-label="Diminuir a quantidade">−</button><b class="num">'+n+'</b><button type="button" class="main" data-act="sonho-mais" aria-label="Aumentar a quantidade de quadros">Aumentar</button></div></div>';
+  }
   function muralResumo(){
-    var h='<h2>Mural dos sonhos</h2><div class="sonhos-row">';
+    var h='<h2>Mural dos sonhos</h2>'+sonhosQtde()+'<div class="sonhos-row '+sonhosClasse()+'">';
     sonhosLista().forEach(function(c){ h+=sonhoCard(c,false) });
     h+='</div><div class="actions"><button type="button" class="ghost" data-act="mural-abrir">Ver o mural</button></div>';
     return h;
   }
   function muralCheio(){
     var h='<h1>Mural dos sonhos</h1><p class="sub">O que você está construindo, um sábado de cada vez.</p>';
+    h+=sonhosQtde();
     h+='<div class="actions"><button type="button" class="ghost" data-act="mural-fechar">Voltar ao início</button></div>';
-    h+='<div class="sonhos-grid">';
+    h+='<div class="sonhos-grid '+sonhosClasse()+'">';
     sonhosLista().forEach(function(c){ h+=sonhoCard(c,true) });
     h+='</div>';
     h+='<p class="note">A data do apartamento, do carro e dos sonhos novos usa a sobra do mês, como no Futuro. O lance usa a parcela planejada.</p>';
-    h+='<h2>Outro sonho</h2><div class="card"><div class="grid2">';
+    h+='<h2>Mais um quadro</h2><div class="card"><div class="grid2">';
     h+='<label class="field"><span>Nome</span><input id="sonhoNome" placeholder="Ex.: viagem"></label>';
-    h+='<label class="field"><span>Meta (R$)</span><input id="sonhoMeta" inputmode="decimal" placeholder="0"></label>';
+    h+='<label class="field"><span>Meta (R$)</span><input id="sonhoMeta" inputmode="decimal" placeholder="0,00"></label>';
     h+='<label class="field"><span>Caixinha ligada</span><select id="sonhoCaixa">';
     [['reserva','Reserva'],['lance','Lance'],['apto','Apartamento'],['carro','Carro'],['arcaInvestir','ARCA – a investir']].forEach(function(c){ h+='<option value="'+c[0]+'">'+c[1]+'</option>' });
     h+='</select></label></div>';
@@ -398,11 +464,202 @@
     return h;
   }
 
+  function estadoInsights(){
+    var ch={};
+    Object.keys(S.checkins||{}).forEach(function(k){
+      var g=S.checkins[k]&&S.checkins[k].gastos;
+      if(g!=null&&g!=='') ch[k]={gastos:g};
+    });
+    return {
+      cfg:{entrada:S.cfg.entrada, consorcio:S.cfg.consorcio, lanceMensal:S.cfg.lanceMensal, lanceMeta:S.cfg.lanceMeta, reservaMeta:S.cfg.reservaMeta, pctReserva:S.cfg.pctReserva, taxa:S.cfg.taxa, aptoMeta:S.cfg.aptoMeta},
+      acordos:(S.acordos||[]).map(function(a){ return {nome:a.nome, valor:a.valor, inicio:a.inicio, n:a.n} }),
+      saldos:S.saldos,
+      aportes:S.aportes,
+      checkins:ch,
+      caixinhasMov:(S.caixinhasMov||[]).map(function(m){ return {caixinha:m.caixinha, tipo:m.tipo, valor:m.valor, data:m.data, origem:m.origem} }),
+      bandaFora:S.bandaFora||{},
+      patrimonio:patrimonio()
+    };
+  }
+  function chaveInsights(){ return ymd(today())+'|'+JSON.stringify(estadoInsights()) }
+  function htmlInsights(){
+    var h='<section id="insights" class="insights" aria-label="O que importa agora"><h2>O que importa agora</h2>';
+    var chave=chaveInsights();
+    if(view.insightsErro&&view.insightsChave===chave){
+      h+='<p class="sub">Não deu para olhar agora. O sábado continua aqui embaixo.</p></section>';
+      return h;
+    }
+    if(!view.insights||view.insightsChave!==chave){
+      h+='<p class="sub">Olhando o sábado, as contas e o ritmo.</p></section>';
+      return h;
+    }
+    if(!view.insights.length){ h+='<p class="sub">Nada pedindo atenção agora.</p></section>'; return h }
+    view.insights.forEach(function(it){
+      h+='<article class="insight '+(it.severity==='importante'||it.severity==='atencao'?it.severity:'info')+'"><h3>'+esc(it.title)+'</h3><p>'+esc(it.detail)+'</p>';
+      var a=it.action||{};
+      if(a.confirmar&&a.confirmar.chave==='reservaMeta'){
+        var v=num(a.confirmar.valor);
+        if(view.insightOk===v) h+='<button type="button" class="main" data-act="insight-meta" data-valor="'+v+'" data-ok="1">Confirmar '+esc(money(v))+'</button>';
+        else h+='<button type="button" class="ghost" data-act="insight-meta" data-valor="'+v+'">'+esc(a.rotulo||'Definir a meta da reserva')+'</button>';
+      } else if(a.destino){
+        h+='<button type="button" class="ghost" data-go="'+esc(a.destino)+'">'+esc(a.rotulo||'Abrir')+'</button>';
+      }
+      h+='</article>';
+    });
+    return h+'</section>';
+  }
+  function htmlBriefing(){
+    if(today().getDay()!==6||!view.briefing) return '';
+    function bloco(b, extra){
+      if(!b) return '';
+      var h='<section class="briefing" aria-label="'+esc(b.titulo||'Seu sábado')+'"><h2>'+esc(b.titulo||'Seu sábado')+'</h2>';
+      (b.linhas||[]).forEach(function(l){ h+='<p>'+esc(l)+'</p>' });
+      if(b.frases) h+='<p class="briefing-voz">'+esc(b.frases)+'</p>';
+      if(extra) h+=extra;
+      return h+'</section>';
+    }
+    var mesNota=view.briefing.mes&&view.briefing.mes.na_linha?'<p class="note">Este relatório também ficou na linha do tempo.</p>':'';
+    return bloco(view.briefing.sabado,'')+bloco(view.briefing.mes, mesNota);
+  }
+  function pedirBriefing(){
+    if(S.tab!=='inicio'||view.mural||today().getDay()!==6) return;
+    var dia=ymd(today());
+    if(view.briefingDia===dia) return;
+    view.briefingDia=dia;
+    fetch('/api/briefing?data='+encodeURIComponent(dia))
+      .then(function(r){ if(r.status===401){location.href='/login';return null} return r.json() })
+      .then(function(j){
+        if(!j||!j.ok) return;
+        view.briefing={sabado:j.sabado||null, mes:j.mes||null};
+        if(S.tab==='inicio'&&!view.mural&&today().getDay()===6) render();
+      })
+      .catch(function(){});
+  }
+  function pintarInsights(){
+    var el=document.getElementById('insights');
+    if(el) el.outerHTML=htmlInsights();
+  }
+  function pedirInsights(){
+    if(S.tab!=='inicio'||view.mural) return;
+    var chave=chaveInsights();
+    if(view.insights&&view.insightsChave===chave) return;
+    var pedido=chave;
+    fetch('/api/insights',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({hoje:ymd(today()), estado:estadoInsights()})})
+      .then(function(r){ if(r.status===401){location.href='/login';return null} if(!r.ok) throw new Error('insights'); return r.json() })
+      .then(function(j){
+        if(!j||chaveInsights()!==pedido) return;
+        view.insightsErro=false;
+        view.insights=Array.isArray(j.insights)?j.insights.slice(0,3):[];
+        view.insightsChave=pedido;
+        var confirma=view.insights.some(function(it){ return it.action&&it.action.confirmar&&num(it.action.confirmar.valor)===view.insightOk });
+        if(!confirma) view.insightOk=null;
+        pintarInsights();
+      })
+      .catch(function(){
+        if(chaveInsights()!==pedido) return;
+        view.insightsErro=true;
+        view.insights=null;
+        view.insightsChave=pedido;
+        view.insightOk=null;
+        pintarInsights();
+      });
+  }
+
+  function pararCmd(){
+    view.cmdParar=true;
+    view.cmdOuvindo=false;
+    if(view.cmdTimer){clearInterval(view.cmdTimer);view.cmdTimer=null}
+    if(view.cmdRec){try{view.cmdRec.onend=null;view.cmdRec.stop()}catch(e){} view.cmdRec=null}
+  }
+  function ouvirComando(){
+    if(view.vozModo==='ouvindo'){pararMic();view.vozModo='off'}
+    var SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+    if(!SR){flash('Este aparelho não dita. Escreva o que aconteceu.');return}
+    view.cmdParar=false;
+    view.cmdOuvindo=true;
+    view.cmdLeft=30;
+    render();
+    var rec=new SR();
+    view.cmdRec=rec;
+    rec.lang='pt-BR';
+    rec.continuous=true;
+    rec.interimResults=true;
+    rec.onresult=function(e){
+      var fin='', mid='';
+      for(var i=0;i<e.results.length;i++){
+        var t=e.results[i][0].transcript;
+        if(e.results[i].isFinal) fin+=t+' '; else mid+=t;
+      }
+      view.cmdTexto=(fin+' '+mid).trim();
+      var el=document.getElementById('cmdQ');
+      if(el) el.value=view.cmdTexto;
+    };
+    rec.onerror=function(ev){
+      if(ev.error==='not-allowed'||ev.error==='service-not-allowed'||ev.error==='audio-capture'){
+        pararCmd(); flash('O microfone não foi permitido. Escreva o que aconteceu.'); render();
+      }
+    };
+    rec.onend=function(){ if(!view.cmdParar&&view.cmdOuvindo&&view.cmdRec){ try{view.cmdRec.start()}catch(err){} } };
+    try{rec.start()}catch(err){pararCmd();flash('Não consegui abrir o microfone.');render();return}
+    var fim=Date.now()+30000;
+    view.cmdTimer=setInterval(function(){
+      var left=Math.max(0,Math.ceil((fim-Date.now())/1000));
+      view.cmdLeft=left;
+      var n=document.getElementById('cmdCount');
+      if(n) n.textContent=left+'s';
+      if(left<=0){pararCmd(); if(S.tab==='inicio') render()}
+    },250);
+  }
+  function htmlComando(){
+    var h='<section class="comando" aria-label="Diga o que aconteceu"><label class="field" for="cmdQ"><span>Diga o que aconteceu…</span>';
+    h+='<textarea id="cmdQ" placeholder="Ex.: guardei 300 na reserva">'+esc(view.cmdTexto||'')+'</textarea></label>';
+    h+='<div class="actions">';
+    if(view.cmdOuvindo) h+='<button type="button" class="main mic" data-act="cmd-parar">'+micDesenho()+'Parar · <span id="cmdCount">'+view.cmdLeft+'s</span></button>';
+    else h+='<button type="button" class="ghost mic" data-act="cmd-voz">'+micDesenho()+'Falar</button>';
+    h+='<button type="button" class="main" data-act="cmd-enviar"'+(view.cmdBusy?' disabled':'')+'>'+(view.cmdBusy?'Olhando…':'Registrar')+'</button></div>';
+    if(view.cmdResposta) h+='<p class="cmd-resposta">'+esc(view.cmdResposta)+'</p>';
+    if(view.cmdProposta){
+      var p=view.cmdProposta;
+      h+='<article class="proposta"><h3>'+esc(p.titulo||'Confirmar')+'</h3><p>'+esc(p.detalhe||'')+'</p><p class="note">Nada muda até você confirmar.</p>';
+      h+='<div class="actions"><button type="button" class="main" data-act="cmd-confirma">Confirmar</button><button type="button" class="ghost" data-act="cmd-cancela">Cancelar</button></div></article>';
+    }
+    return h+'</section>';
+  }
+  function enviarComando(){
+    pararCmd();
+    var el=document.getElementById('cmdQ');
+    var texto=el?String(el.value).trim():String(view.cmdTexto||'').trim();
+    if(!texto){flash('Diga o que aconteceu.');return}
+    view.cmdTexto=texto;
+    view.cmdBusy=true; view.cmdResposta=''; view.cmdProposta=null;
+    render();
+    fetch('/api/comando',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({texto:texto, hoje:ymd(today()), estado:estadoAgente()})})
+      .then(function(r){ if(r.status===401){location.href='/login';return null} return r.json() })
+      .then(function(j){
+        if(!j) return;
+        if(j.tipo==='proposta'&&j.proposta){ view.cmdProposta=j.proposta; view.cmdResposta=''; }
+        else { view.cmdProposta=null; view.cmdResposta=j.texto||'Não entendi. Tente de outro jeito.'; }
+      })
+      .catch(function(){ view.cmdProposta=null; view.cmdResposta='Não deu para entender agora.'; })
+      .then(function(){ view.cmdBusy=false; if(S.tab==='inicio'&&!view.mural) render(); });
+  }
+  function registrarCompra(at, q, pr){
+    if(!(q>0&&pr>0)||!at) return false;
+    at.pm=(at.qtd*at.pm+q*pr)/(at.qtd+q);
+    at.qtd=Math.round((at.qtd+q)*10000)/10000;
+    at.pm=Math.round(at.pm*100)/100;
+    if(!at.preco){at.preco=pr; at.hist=[{d:ymd(today()),p:pr}]}
+    return true;
+  }
+
   function tInicio(){
     if(view.mural) return muralCheio();
     var st=streaks(), f=fase(), prox=satOnOrAfter(today()), cyc=cycleOf(prox), M=marcos(), ok=M.filter(function(m){return m[1]}).length;
     var tipo=cyc.idx===0?'Aluguel':'Cascata '+cyc.idx;
     var h='<div class="home">'+sangueHtml()+'<h1>Olá, Tiago</h1><p class="sub">'+f[0]+' · '+esc(f[1])+'</p>';
+    h+=htmlBriefing();
+    h+=htmlComando();
+    h+=htmlInsights();
     h+=sabedoriaHtml();
     h+='<div class="grid3"><div class="stat hl"><span>Próximo sábado</span><b>'+fmtDate(prox)+'</b><span>'+tipo+'</span></div>';
     h+='<div class="stat"><span>Sequência</span>'+fig('hero-streak',st.atual,String(st.atual),'int')+'<span>melhor: '+st.melhor+'</span></div>';
@@ -420,6 +677,8 @@
     h+=goal('Carro dos sonhos',S.saldos.carro,S.cfg.carroMeta,'var(--plum)');
     h+='</div>';
     h+='<div class="grid2"><div class="stat"><span>ARCA investida</span><b class="num">'+money(arcaTotal())+'</b></div><div class="stat"><span>ARCA – a investir</span><b class="num">'+money(S.saldos.arcaInvestir)+'</b>'+(S.saldos.arcaInvestir>0?'<span>comprar na segunda ou terça</span>':'')+'</div></div>';
+    h+=conferenciaAviso();
+    h+='<div class="actions"><button type="button" class="ghost" data-go="caixinhas">Abrir caixinhas</button></div>';
     h+='<h2>Marcos · '+ok+' de '+M.length+'</h2><div class="card"><div class="marcos">';
     M.forEach(function(m){h+='<div class="'+(m[1]?'ok':'')+'"><span class="mark" aria-hidden="true"></span>'+esc(m[0])+'</div>'});
     h+='</div></div>';
@@ -428,9 +687,67 @@
     return h;
   }
 
+  function lembretesSabado(){
+    var itens=[];
+    var parada=diasArcaParada();
+    if(num(S.saldos.arcaInvestir)>0&&parada>7) itens.push({tipo:'arca', texto:'ARCA – a investir está com '+money(S.saldos.arcaInvestir)+' há '+parada+' dias. É passagem: compre no próximo dia útil.'});
+    var data=S.conferencia&&S.conferencia.data;
+    var diasConf=data?Math.round((today()-parse(data))/864e5):null;
+    if(diasConf==null||diasConf>30) itens.push({tipo:'conf', texto:diasConf==null?'Nenhuma conferência com o Nubank ainda. Uma vez por mês, digite o saldo do app.':'Conferência com o Nubank há '+diasConf+' dias. Uma vez por mês, digite o saldo do app.'});
+    var corte=ymd(addDays(today(),-7));
+    var retiradas=movsCaixa('reserva').filter(function(m){ return m.tipo==='retirada'&&m.data>=corte });
+    if(retiradas.length){
+      var soma=0;
+      retiradas.forEach(function(m){ soma+=num(m.valor) });
+      var det=retiradas.slice(0,3).map(function(m){ return money(m.valor)+(m.motivo?' · '+m.motivo:'') }).join('; ');
+      itens.push({tipo:'reserva', texto:'Retirada da Reserva nos últimos 7 dias: '+money(soma)+'. '+det+'.'});
+    }
+    return itens;
+  }
+  function textoLembrete(){
+    return lembretesSabado().map(function(i){ return i.texto }).join('\n');
+  }
+  function dispararLembrete(){
+    if(today().getDay()!==6||new Date().getHours()<8) return;
+    var chave=ymd(today());
+    try{ if(localStorage.getItem('portal-lembrete-sabado')===chave) return }catch(e){}
+    var corpo=textoLembrete();
+    if(!corpo||!window.Notification||Notification.permission!=='granted') return;
+    try{
+      var n=new Notification('Sábado de manhã',{body:corpo,tag:'portal-sabado',lang:'pt-BR'});
+      n.onclick=function(){ window.focus(); S.tab='sabado'; view.sab=today(); render() };
+      localStorage.setItem('portal-lembrete-sabado', chave);
+    }catch(e){}
+  }
+  function armarLembrete(){
+    clearTimeout(armarLembrete.t);
+    var agora=new Date();
+    var alvo=new Date(agora.getFullYear(),agora.getMonth(),agora.getDate(),8,0,0,0);
+    var falta=(6-agora.getDay()+7)%7;
+    if(falta===0&&agora.getHours()>=8){ dispararLembrete(); return }
+    if(falta!==0) alvo.setDate(alvo.getDate()+falta);
+    var espera=alvo-agora;
+    if(espera<=0||espera>8*864e5) return;
+    armarLembrete.t=setTimeout(dispararLembrete, espera);
+  }
+  function blocoLembrete(){
+    var itens=lembretesSabado();
+    var perm=window.Notification?Notification.permission:'unsupported';
+    if(!itens.length&&perm!=='default') return '';
+    var h='<section class="lembrete" aria-label="Lembrete de sábado de manhã">';
+    if(itens.length){
+      h+='<h2>Sábado de manhã</h2>';
+      itens.forEach(function(i){ h+='<p>'+esc(i.texto)+'</p>' });
+      if(itens.some(function(i){ return i.tipo==='conf' })) h+='<div class="actions"><button type="button" class="main" data-act="lembrete-conf">Conferir com o Nubank</button></div>';
+    }else h+='<p>No sábado de manhã o aviso chega se a ARCA – a investir passar de 7 dias, a conferência passar de 30 dias ou você tirar da Reserva.</p>';
+    if(perm==='default') h+='<div class="actions"><button type="button" class="ghost" data-act="lembrete-perm">Receber este aviso no sábado de manhã</button></div>';
+    if(perm==='denied') h+='<p class="note">O aviso deste aparelho está bloqueado. O lembrete continua aqui quando você abre o sábado.</p>';
+    return h+'</section>';
+  }
   function tSabado(){
     var d=view.sab||satOnOrAfter(today()); view.sab=d;
     var key=ymd(d), cyc=cycleOf(d), h='<h1>Sábado</h1><p class="sub">Recebeu, executa a sua parte da cascata e faz o check-in.</p>';
+    h+=blocoLembrete();
     h+='<div class="week"><button class="ghost icon-btn" data-sab="-7" aria-label="Sábado anterior">←</button><h3>'+fmtLong(d)+'</h3><button class="ghost icon-btn" data-sab="7" aria-label="Próximo sábado">→</button></div>';
     if(cyc.idx===0){
       h+='<div class="card" style="margin-top:12px"><svg class="house" viewBox="0 0 48 40" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 18 L24 6 L42 18"/><path d="M10 16 V34 H38 V16"/><path d="M20 34 V24 H28 V34"/></svg><span class="pill amber">Sábado do aluguel</span><p>Nesta semana a pedra vai para a casa. O pagamento de hoje vai para o aluguel, que vence dia 5. Sem aporte nesta semana.</p></div>';
@@ -501,11 +818,18 @@
     if(Array.isArray(saved.timeline)) base.timeline=saved.timeline;
     if(Array.isArray(saved.cenarios)) base.cenarios=saved.cenarios;
     if(Array.isArray(saved.livros)) base.livros=saved.livros;
+    if(Array.isArray(saved.caixinhasMov)) base.caixinhasMov=saved.caixinhasMov;
+    if(Array.isArray(saved.outrasContas)) base.outrasContas=saved.outrasContas;
+    if(saved.conferencia&&typeof saved.conferencia==='object'&&saved.conferencia.data) base.conferencia=saved.conferencia;
     if(base.cfg.esconderSabedoria==null) base.cfg.esconderSabedoria=false;
     if(saved.feitos&&typeof saved.feitos==='object'&&!Array.isArray(saved.feitos)) base.feitos=saved.feitos;
+    if(saved.avisos&&typeof saved.avisos==='object'&&!Array.isArray(saved.avisos)){
+      ['sabado','arca','contas','nudge','revisao'].forEach(function(k){ if(typeof saved.avisos[k]==='boolean') base.avisos[k]=saved.avisos[k] });
+    }
     if(base.cfg.rendaLiquida==null) base.cfg.rendaLiquida='';
     if(base.cfg.horasMes==null) base.cfg.horasMes='';
     if(!base.ativos||!base.ativos.length) base.ativos=JSON.parse(JSON.stringify(DEFAULT.ativos));
+    base.ativos.forEach(classificarAtivo);
     return base;
   }
   function atualizarBanda(){
@@ -980,8 +1304,8 @@
     var escolhas=[['Data','Valor','Descrição','Caixinha']];
     (S.escolhas||[]).forEach(function(e){escolhas.push([e.data,num(e.valor),e.descricao||'',e.caixinha||''])});
     abas.push(abaExcel('Escolhas',escolhas));
-    var ativos=[['Ativo','Letra','Nome','Cotas','Preço médio','Cotação','Valor']];
-    (S.ativos||[]).forEach(function(a){ativos.push([a.t,a.l,a.nome,num(a.qtd),num(a.pm),num(a.preco),Math.round(num(a.qtd)*num(a.preco)*100)/100])});
+    var ativos=[['Ativo','Classe','Tipo','Letra','Nome','Quantidade','Preço médio','Cotação','Valor']];
+    (S.ativos||[]).forEach(function(a){classificarAtivo(a); var info=infoTipo(a.classe,a.tipo); ativos.push([a.t,info.classe,info.tipo,a.l||'',a.nome,num(a.qtd),num(a.pm),num(a.preco),Math.round(num(a.qtd)*num(a.preco)*100)/100])});
     abas.push(abaExcel('Mercado',ativos));
     var livros=[['Título','Autor','Situação','Começou','Terminou','Ideia']];
     livrosLista().forEach(function(b){livros.push([b.titulo,b.autor||'',b.status||'',b.inicio||'',b.fim||'',b.ideia||''])});
@@ -1000,6 +1324,7 @@
     flash('Excel baixado');
   }
   function tAjustes(){
+    if(view.memTela) return tMemoria();
     var C=S.cfg, h='<h1>Ajustes</h1><p class="sub">Os números que movem o portal inteiro.</p>';
     var dinheiroCfg={entrada:1,consorcio:1,lanceMensal:1,lanceMeta:1,reservaMeta:1,metaMilhao:1,aptoMeta:1,carroMeta:1,cambio:1};
     var qtdCfg={idade:1};
@@ -1025,45 +1350,212 @@
     h+='<h2>Saldos das caixinhas</h2><div class="grid3">';
     [['reserva','Reserva'],['lance','Lance'],['apto','Apartamento'],['carro','Carro'],['arcaInvestir','ARCA – a investir']].forEach(function(x){h+='<label class="field"><span>'+x[1]+'</span><input data-saldo="'+x[0]+'" inputmode="decimal" value="'+esc(textoDinheiro(S.saldos[x[0]]))+'"></label>'});
     h+='</div><p class="note">Use para corrigir quando o valor do app for diferente do portal.</p>';
+    h+='<h2>Avisos no celular</h2><p class="note">No iPhone, o aviso só chega depois de Adicionar à tela de início. No máximo 3 por semana, de manhã até antes da noite, no fuso de Nova York. Sem alerta de cotação.</p>';
+    var AV=S.avisos||{sabado:false,arca:false,contas:false,nudge:false,revisao:false};
+    [['sabado','Sábado de manhã'],['arca','Segunda, se a ARCA – a investir tiver dinheiro'],['contas','Conta que vence amanhã'],['nudge','Dois sábados sem check-in'],['revisao','Checagem trimestral e do ano']].forEach(function(x){
+      h+='<div class="actions"><button type="button" class="aviso" data-act="aviso-toggle" data-tipo="'+x[0]+'" aria-pressed="'+(AV[x[0]]?'true':'false')+'">'+esc(x[1])+' · '+(AV[x[0]]?'Ligado':'Desligado')+'</button></div>';
+    });
+    h+='<div class="actions"><button type="button" class="main" data-act="push-ativar">Ativar neste aparelho</button><button type="button" class="ghost" data-act="push-parar">Desativar neste aparelho</button></div>';
+    h+=blocoUso();
+    h+='<h2>Memória do Lastro</h2><p class="note">O que ele pode lembrar. Você vê, edita e apaga.</p><div class="actions"><button type="button" class="ghost" data-act="mem-abrir">Abrir a memória</button></div>';
     h+='<h2>Backup</h2><div class="card"><p style="margin:0">Seus dados ficam '+ondeDados()+'. Baixe uma cópia de vez em quando.</p><div class="actions"><button class="ghost" data-act="export">Baixar backup (.json)</button><button class="ghost" data-act="excel">Exportar Excel</button><label class="ghost" style="border:1px solid var(--line);border-radius:10px;padding:10px 14px;cursor:pointer">Restaurar backup<input type="file" id="impFile" accept="application/json" style="display:none"></label><a class="ghost" href="/api/logout" style="border:1px solid var(--line);border-radius:10px;padding:10px 14px;color:var(--ink);text-decoration:none">Sair</a></div></div>';
     return h;
   }
 
 
+  function classesAtivos(){
+    return [
+      {id:'rv', nome:'Renda variável', tipos:[
+        {id:'acao', nome:'Ações'},
+        {id:'unit', nome:'Units'},
+        {id:'fii', nome:'Fundos imobiliários'},
+        {id:'etf', nome:'ETFs'},
+        {id:'bdr', nome:'BDRs'},
+        {id:'fiagro', nome:'FIAGRO'},
+        {id:'fi-infra', nome:'FI-Infra'},
+        {id:'opcao', nome:'Opções'}
+      ]},
+      {id:'rf', nome:'Renda fixa', tipos:[
+        {id:'tesouro', nome:'Tesouro Direto'},
+        {id:'cdb', nome:'CDB'},
+        {id:'lci', nome:'LCI'},
+        {id:'lca', nome:'LCA'},
+        {id:'lc', nome:'LC'},
+        {id:'debenture', nome:'Debêntures'},
+        {id:'cri', nome:'CRI'},
+        {id:'cra', nome:'CRA'}
+      ]},
+      {id:'fundos', nome:'Fundos de investimento', tipos:[
+        {id:'fundo-acao', nome:'Ações'},
+        {id:'fundo-rf', nome:'Renda fixa'},
+        {id:'fundo-multi', nome:'Multimercado'},
+        {id:'fundo-cambial', nome:'Cambial'},
+        {id:'fip', nome:'FIP'},
+        {id:'fidc', nome:'FIDC'}
+      ]},
+      {id:'prev', nome:'Previdência', tipos:[
+        {id:'pgbl', nome:'PGBL'},
+        {id:'vgbl', nome:'VGBL'}
+      ]},
+      {id:'outros', nome:'Outros', tipos:[
+        {id:'coe', nome:'COE'},
+        {id:'outro', nome:'Outro'}
+      ]}
+    ];
+  }
+  function infoTipo(classe, tipo){
+    var c=classesAtivos().filter(function(x){return x.id===classe})[0];
+    if(!c) return {classe:'Outros', tipo:'Outro', cid:'outros', tid:'outro'};
+    var t=c.tipos.filter(function(x){return x.id===tipo})[0];
+    if(!t) return {classe:c.nome, tipo:'Outro', cid:c.id, tid:'outro'};
+    return {classe:c.nome, tipo:t.nome, cid:c.id, tid:t.id};
+  }
+  function classificarAtivo(a){
+    if(!a||typeof a!=='object') return;
+    if(a.classe&&a.tipo&&infoTipo(a.classe,a.tipo).tid===a.tipo&&infoTipo(a.classe,a.tipo).cid===a.classe) return;
+    var t=String(a.t||'').toUpperCase();
+    if(t==='BOVA11'||t==='BOVX11'||t==='IVVB11'||t==='SMAL11'||t==='HASH11'){ a.classe='rv'; a.tipo='etf'; return }
+    if(FIIS.indexOf(t)>=0||a.l==='R'){ a.classe='rv'; a.tipo='fii'; return }
+    if(a.l==='C'||/tesouro/i.test(t)||/tesouro/i.test(a.nome||'')){ a.classe='rf'; a.tipo='tesouro'; return }
+    if(a.l==='I'){ a.classe='rv'; a.tipo='etf'; return }
+    if(a.l==='A'){ a.classe='rv'; a.tipo='acao'; return }
+    a.classe='outros'; a.tipo='outro';
+  }
+  function htmlTipos(classeId){
+    var c=classesAtivos().filter(function(x){return x.id===classeId})[0]||classesAtivos()[0];
+    return c.tipos.map(function(t){return '<option value="'+t.id+'">'+esc(t.nome)+'</option>'}).join('');
+  }
+  function opcoesAtivos(){
+    var h='', usados={};
+    classesAtivos().forEach(function(c){
+      c.tipos.forEach(function(tp){
+        var lista=[];
+        S.ativos.forEach(function(a,i){
+          classificarAtivo(a);
+          if(a.classe===c.id&&a.tipo===tp.id){ lista.push(i); usados[i]=1 }
+        });
+        if(!lista.length) return;
+        h+='<optgroup label="'+esc(c.nome+' · '+tp.nome)+'">';
+        lista.forEach(function(i){ h+='<option value="'+i+'">'+esc(S.ativos[i].t)+'</option>' });
+        h+='</optgroup>';
+      });
+    });
+    var resto=[];
+    S.ativos.forEach(function(a,i){ if(!usados[i]) resto.push(i) });
+    if(resto.length){
+      h+='<optgroup label="Outros">';
+      resto.forEach(function(i){ h+='<option value="'+i+'">'+esc(S.ativos[i].t)+'</option>' });
+      h+='</optgroup>';
+    }
+    return h;
+  }
   function atStats(a){var v=a.qtd*a.preco, c=a.qtd*a.pm; var h=a.hist||[]; var ch=h.length>=2&&h[h.length-2].p>0?(h[h.length-1].p/h[h.length-2].p-1)*100:null;
     return {valor:v,custo:c,rent:c>0?(v/c-1)*100:null,var:ch,data:h.length?h[h.length-1].d:null}}
+  function linhaAtivo(a,i){
+    var x=atStats(a);
+    var onde=a.l?('Letra '+a.l):'Fora da ARCA';
+    var tirar=a.livre&&!(a.qtd>0);
+    var del=pendingDel==='at:'+i;
+    var qtd=a.qtd%1?a.qtd.toFixed(2):a.qtd;
+    var rent=x.rent==null?'':(x.rent>=0?'+':'')+x.rent.toFixed(1).replace('.',',')+'%';
+    var h='<div class="li"><div><b>'+esc(a.t)+'</b><small>'+esc(a.nome||'')+' · '+esc(onde)+'</small>';
+    h+='<small>'+qtd+' · médio '+money(a.pm)+(rent?' · '+rent:'')+'</small>'+sparkHtml(a);
+    h+='<label class="field"><span>Cotação</span><input data-preco="'+i+'" inputmode="decimal" value="'+(a.preco?textoDinheiro(a.preco):'')+'" placeholder="0,00" aria-label="Cotação de '+esc(a.t)+'"></label>';
+    if(tirar) h+='<button type="button" class="mini'+(del?' warn':'')+'" data-act="ativo-tirar" data-i="'+i+'">'+(del?'Confirmar':'Tirar')+'</button>';
+    h+='</div><div class="v num">'+money(x.valor)+'</div></div>';
+    return h;
+  }
+  var BOLSA_TIPOS=[['acao','Ações'],['unit','Units'],['fii','Fundos imobiliários'],['etf','ETFs'],['bdr','BDRs'],['fiagro','FIAGRO'],['fi-infra','FI-Infra'],['fip','FIP'],['fidc','FIDC']];
+  function htmlBolsaLista(){
+    var itens=view.bolsaItens||[];
+    var h='';
+    if(view.bolsaMsg) h+='<p class="note">'+esc(view.bolsaMsg)+'</p>';
+    if(view.bolsaTotal&&itens.length) h+='<p class="note">'+itens.length+' de '+view.bolsaTotal+'</p>';
+    if(itens.length){
+      h+='<div class="list bolsa-lista">';
+      itens.forEach(function(it,i){
+        var ja=S.ativos.some(function(a){ return String(a.t).toUpperCase()===it.t });
+        h+='<div class="li"><div><b>'+esc(it.t)+'</b><small>'+esc(it.tipoNome)+' · '+esc(it.nome)+'</small></div>';
+        h+=ja?'<span class="pill">No painel</span>':'<button type="button" class="mini" data-act="bolsa-add" data-i="'+i+'">Incluir</button>';
+        h+='</div>';
+      });
+      h+='</div>';
+      if(view.bolsaMais) h+='<div class="actions"><button type="button" class="ghost" data-act="bolsa-mais">Mostrar mais</button></div>';
+    }
+    return h;
+  }
+  function carregarBolsa(append){
+    var seq=++carregarBolsa.n;
+    var q=String(view.bolsaQ||'').trim();
+    var tipo=view.bolsaTipo||'';
+    if(q.length>0&&q.length<2&&!tipo){
+      view.bolsaItens=[]; view.bolsaMais=false; view.bolsaTotal=0; view.bolsaMsg='Digite pelo menos 2 letras.'; pintarBolsa(); return;
+    }
+    if(q.length<2&&!tipo){
+      view.bolsaItens=[]; view.bolsaMais=false; view.bolsaTotal=0; view.bolsaMsg='Busque pelo código ou pelo nome, ou escolha um tipo. A lista é a bolsa inteira.'; pintarBolsa(); return;
+    }
+    if(!append) view.bolsaPage=1;
+    view.bolsaMsg=append?'':'Buscando…';
+    if(!append) pintarBolsa();
+    var page=view.bolsaPage||1;
+    fetch('/api/bolsa?q='+encodeURIComponent(q.length>=2?q:'')+'&tipo='+encodeURIComponent(tipo)+'&page='+page)
+      .then(function(r){ if(r.status===401){ location.href='/login'; throw 0 } return r.json() })
+      .then(function(j){
+        if(seq!==carregarBolsa.n) return;
+        var novos=j.itens||[];
+        view.bolsaItens=append?(view.bolsaItens||[]).concat(novos):novos;
+        view.bolsaMais=!!j.hasNext;
+        view.bolsaTotal=j.total||view.bolsaItens.length;
+        view.bolsaMsg=j.error?j.error:(view.bolsaItens.length?'':'Nenhum ativo com esse filtro.');
+        pintarBolsa();
+      })
+      .catch(function(e){ if(e!==0&&seq===carregarBolsa.n){ view.bolsaMsg='Não foi possível consultar a bolsa.'; pintarBolsa() } });
+  }
+  carregarBolsa.n=0;
+  function pintarBolsa(){
+    var el=document.getElementById('bolsaLista');
+    if(el) el.innerHTML=htmlBolsaLista();
+  }
   function tMercado(){
+    S.ativos.forEach(classificarAtivo);
     var tv=0,tc=0; S.ativos.forEach(function(a){var x=atStats(a);tv+=x.valor;tc+=x.custo});
-    var h=sangueHtml()+'<h1>Mercado</h1><p class="sub">Suas posições e como cada ativo está andando. Cotações da B3 pela brapi.dev; o Tesouro IPCA+ você atualiza à mão.</p>';
-    h+='<div class="actions"><button class="main" data-act="quotes">Atualizar cotações agora</button>'+(S.ultimaCotacao?'<small style="color:var(--muted)">Última atualização: '+esc(S.ultimaCotacao)+'</small>':'')+'</div>';
+    var h=sangueHtml()+'<h1>Mercado</h1><p class="sub">A bolsa inteira está aqui. Busque ou escolha o tipo.</p>';
+    h+='<div class="card" style="margin-top:16px"><div class="chips bolsa-tipos">'+BOLSA_TIPOS.map(function(t){ return '<button type="button" data-bolsa="'+t[0]+'" aria-pressed="'+(view.bolsaTipo===t[0])+'">'+esc(t[1])+'</button>' }).join('')+'</div>';
+    h+='<label class="field" style="margin-top:12px"><span>Buscar na bolsa</span><input id="bolsaQ" value="'+esc(view.bolsaQ||'')+'" placeholder="Código ou nome. Ex.: PETR4, Vale, HGLG11" autocomplete="off"></label>';
+    h+='<div id="bolsaLista">'+htmlBolsaLista()+'</div>';
+    h+='<p class="note">Ações, units, FIIs, ETFs, BDRs, FIAGRO, FI-Infra, FIP e FIDC. Incluir não mexe nos 25% da ARCA.</p></div>';
     h+='<div class="grid3" style="margin-top:16px"><div class="stat"><span>Valor de mercado</span><b class="num">'+money(tv)+'</b></div><div class="stat"><span>Quanto você pagou</span><b class="num">'+money(tc)+'</b></div><div class="stat hl"><span>Resultado</span><b class="num '+(tv>=tc?'pos':'neg')+'">'+(tc>0?((tv/tc-1)*100).toFixed(1).replace('.',',')+'%':'—')+'</b><span>'+money(tv-tc)+'</span></div></div>';
-    if(!(tv>0||tc>0)) h+='<p class="empty">Sem posição com valor ainda. Registre uma compra, ou digite a cotação do dia.</p>';
-    h+='<h2>Posições</h2><div class="card tw"><table><thead><tr><th>Ativo</th><th class="v">Cotas</th><th class="v">Preço médio</th><th class="v">Cotação</th><th class="v">Valor</th><th class="v">Resultado</th><th class="v">Última var.</th></tr></thead><tbody>';
-    S.ativos.forEach(function(a,i){var x=atStats(a);
-      h+='<tr><td><b>'+esc(a.t)+'</b><br><small style="color:var(--muted)">'+a.l+' · '+esc(a.nome)+'</small>'+sparkHtml(a)+'</td><td class="v">'+(a.qtd%1?a.qtd.toFixed(2):a.qtd)+'</td><td class="v">'+money(a.pm)+'</td>'+
-      '<td class="v"><input data-preco="'+i+'" inputmode="decimal" value="'+(a.preco||'')+'" placeholder="0,00" aria-label="Cotação de '+esc(a.t)+'" style="width:96px;text-align:right"></td>'+
-      '<td class="v">'+money(x.valor)+'</td><td class="v '+(x.rent==null?'':(x.rent>=0?'pos':'neg'))+'">'+(x.rent==null?'—':x.rent.toFixed(1).replace('.',',')+'%')+'</td><td class="v '+(x.var==null?'':(x.var>=0?'pos':'neg'))+'">'+(x.var==null?'—':(x.var>=0?'+':'')+x.var.toFixed(1).replace('.',',')+'%')+'</td></tr>'});
-    h+='</tbody></table><p class="note">Digite a cotação do dia e saia do campo: o portal guarda o histórico e calcula a variação desde a última atualização.</p></div>';
-    h+='<h2>Registrar compra</h2><div class="card"><div class="grid3"><label class="field"><span>Ativo</span><select id="cpAt">'+S.ativos.map(function(a,i){return '<option value="'+i+'">'+esc(a.t)+'</option>'}).join('')+'</select></label><label class="field"><span>Cotas</span><input id="cpQ" inputmode="decimal" placeholder="Ex.: 3"></label><label class="field"><span>Preço pago por cota</span><input id="cpP" inputmode="decimal" placeholder="0,00"></label></div><div class="actions"><button class="main" data-act="compra">Registrar compra</button><button class="ghost" data-act="sync">Usar valores de mercado na ARCA</button></div><p class="note">"Usar valores de mercado na ARCA" troca o saldo de cada letra pelo valor atual das posições, para o rebalanceamento usar o valor real.</p></div>';
-    h+='<h2>Registrar venda</h2><div class="card"><div class="grid3"><label class="field"><span>Ativo</span><select id="vdAt">'+S.ativos.map(function(a,i){return '<option value="'+i+'">'+esc(a.t)+'</option>'}).join('')+'</select></label><label class="field"><span>Cotas</span><input id="vdQ" inputmode="decimal" placeholder="Ex.: 1"></label><label class="field"><span>Preço de venda por cota</span><input id="vdP" inputmode="decimal" placeholder="0,00"></label></div><div class="actions"><button class="main" data-act="venda">Registrar venda</button></div><p class="note">A venda reduz as cotas e manda o valor recebido para "ARCA – a investir". Faz sentido quando uma letra está fora de 15%–35% há uns 6 meses. Se o saldo da letra não bater com o mercado, use "Usar valores de mercado na ARCA" antes.</p></div>';
+    classesAtivos().forEach(function(c){
+      var itens=[];
+      S.ativos.forEach(function(a,i){ if(a.classe===c.id) itens.push({a:a,i:i}) });
+      if(!itens.length) return;
+      var sub=0; itens.forEach(function(x){ sub+=atStats(x.a).valor });
+      var pct=tv>0?Math.round(sub/tv*1000)/10:0;
+      h+='<section class="mercado-classe" aria-label="'+esc(c.nome)+'"><div class="mercado-head"><h2>'+esc(c.nome)+'</h2><b class="num">'+money(sub)+(tv>0?' · '+String(pct).replace('.',',')+'%':'')+'</b></div>';
+      c.tipos.forEach(function(tp){
+        var doTipo=itens.filter(function(x){ return x.a.tipo===tp.id });
+        if(!doTipo.length) return;
+        var st=0; doTipo.forEach(function(x){ st+=atStats(x.a).valor });
+        h+='<h3>'+esc(tp.nome)+' <span class="num">'+money(st)+'</span></h3><div class="list">';
+        doTipo.forEach(function(x){ h+=linhaAtivo(x.a,x.i) });
+        h+='</div>';
+      });
+      h+='</section>';
+    });
+    h+='<div class="actions"><button type="button" class="ghost" data-act="merc-novo" aria-expanded="'+(view.mercNovo?'true':'false')+'">'+(view.mercNovo?'Fechar':'Fora da bolsa')+'</button><button class="ghost" data-act="quotes">Atualizar cotações</button></div>';
+    if(S.ultimaCotacao) h+='<p class="note">Última atualização: '+esc(S.ultimaCotacao)+'.</p>';
+    if(view.mercNovo){
+      h+='<div class="card"><p style="margin:0">Tesouro, CDB, LCI e o que não tem código na B3.</p>';
+      h+='<div class="grid2" style="margin-top:12px"><label class="field"><span>Classe</span><select id="nvClasse">'+classesAtivos().map(function(c){return '<option value="'+c.id+'"'+(c.id==='rf'?' selected':'')+'>'+esc(c.nome)+'</option>'}).join('')+'</select></label><label class="field"><span>Tipo</span><select id="nvTipo">'+htmlTipos('rf')+'</select></label><label class="field"><span>Código</span><input id="nvT" placeholder="Ex.: Tesouro IPCA+ 2035" autocomplete="off"></label><label class="field"><span>Nome</span><input id="nvN" placeholder="Ex.: Tesouro Direto" autocomplete="off"></label><label class="field"><span>Na ARCA</span><select id="nvL"><option value="">Fora da ARCA</option><option value="A">Letra A · Ações BR</option><option value="R">Letra R · Fundos imobiliários</option><option value="C">Letra C · Caixa</option><option value="I">Letra I · Internacional</option></select></label></div>';
+      h+='<div class="actions"><button type="button" class="main" data-act="ativo-add">Incluir fora da bolsa</button></div></div>';
+    }
+    var opts=opcoesAtivos();
+    h+='<h2>Registrar compra</h2><div class="card"><div class="grid3"><label class="field"><span>Ativo</span><select id="cpAt">'+opts+'</select></label><label class="field"><span>Quantidade</span><input id="cpQ" inputmode="decimal" placeholder="Ex.: 3"></label><label class="field"><span>Preço pago</span><input id="cpP" inputmode="decimal" placeholder="0,00"></label></div><div class="actions"><button class="main" data-act="compra">Registrar compra</button><button class="ghost" data-act="sync">Usar valores de mercado na ARCA</button></div><p class="note">"Usar valores de mercado na ARCA" troca o saldo de cada letra pelo valor das posições marcadas com A, R, C ou I. O que está fora da ARCA fica de fora dessa conta.</p></div>';
+    h+='<h2>Registrar venda</h2><div class="card"><div class="grid3"><label class="field"><span>Ativo</span><select id="vdAt">'+opts+'</select></label><label class="field"><span>Quantidade</span><input id="vdQ" inputmode="decimal" placeholder="Ex.: 1"></label><label class="field"><span>Preço de venda</span><input id="vdP" inputmode="decimal" placeholder="0,00"></label></div><div class="actions"><button class="main" data-act="venda">Registrar venda</button></div><p class="note">A venda reduz a quantidade e manda o valor recebido para "ARCA – a investir". Na letra da ARCA, o saldo da letra também desce. Faz sentido vender para rebalancear quando uma letra está fora de 15%–35% há uns 6 meses.</p></div>';
     h+='<h2>Notícias</h2><div class="card"><p style="margin:0">Na aba Assistente IA, o botão "Notícias dos meus ativos" pesquisa o que aconteceu na semana com cada ativo.</p><div class="actions"><button class="ghost" data-go="assistente">Abrir o assistente</button></div></div>';
     return h;
   }
 
-  function contexto(){
-    var tot=arcaTotal(), st=streaks(), f=fase(), mes=ymd(today()).slice(0,7);
-    var cks=Object.keys(S.checkins).sort().slice(-4).map(function(k){var c=S.checkins[k];return {sabado:k,gastos:c.gastos||'',negocios:c.negocios||'',vitoria:c.vitoria||'',escorreguei:c.escorreguei||'',mexeu_caixinha:c.mexeu||'não'}});
-    return {
-      hoje:ymd(today()), fase:f[0], proximo_sabado:ymd(satOnOrAfter(today())), tipo_proximo_sabado:cycleOf(satOnOrAfter(today())).idx===0?'aluguel':'cascata',
-      plano:{entrada_mensal:S.cfg.entrada, cambio_liquido:S.cfg.cambio, entrada_usd:S.cfg.cambio>0?Math.round(S.cfg.entrada/S.cfg.cambio):null, consorcio:S.cfg.consorcio, acordos_este_mes:acordosNo(mes), lance_mensal:S.cfg.lanceMensal, meta_lance:S.cfg.lanceMeta, meta_reserva:S.cfg.reservaMeta||'ainda não definida', meta_apartamento:S.cfg.aptoMeta, meta_carro:S.cfg.carroMeta, rendimento_real_premissa:S.cfg.taxa},
-      caixinhas:{reserva:S.saldos.reserva, lance:S.saldos.lance, apartamento:S.saldos.apto, carro:S.saldos.carro, arca_a_investir:S.saldos.arcaInvestir},
-      arca:{A_acoes_BR:S.saldos.A, R_fiis:S.saldos.R, C_caixa:S.saldos.C, I_internacional:S.saldos.I, total:tot, percentuais:tot>0?{A:+(S.saldos.A/tot*100).toFixed(1),R:+(S.saldos.R/tot*100).toFixed(1),C:+(S.saldos.C/tot*100).toFixed(1),I:+(S.saldos.I/tot*100).toFixed(1)}:'sem posições ainda', fora_da_faixa:(function(){ if(tot<4000) return 'carteira ainda abaixo de 4000, regra dos 6 meses ainda não vale'; var o={}; ['A','R','C','I'].forEach(function(k){ var pc=tot>0?S.saldos[k]/tot*100:0; if(pc<15||pc>35){ var desde=S.bandaFora&&S.bandaFora[k]; var dias=desde?Math.round((today()-parse(desde))/864e5):0; o[k]={pct:+pc.toFixed(1),desde:desde||null,dias:dias,pode_vender:dias>=183} } }); return Object.keys(o).length?o:'dentro da faixa' })(), sugestao_do_portal_para_o_dinheiro_a_investir:(function(){var al=arcaAlloc();return {A_BOVA11:al[0],R_FII:al[1],R_fii_do_mes:fiiDoMes(mes),C_TesouroIPCA2035:al[2],I_IVVB11:al[3]}})(), dividendos_recebidos:S.saldos.dividendos},
-      posicoes:S.ativos.filter(function(a){return a.qtd>0||a.preco>0}).map(function(a){var x=atStats(a);return {ativo:a.t,letra:a.l,cotas:a.qtd,preco_medio:a.pm,cotacao_informada:a.preco,data_cotacao:x.data,resultado_pct:x.rent==null?null:+x.rent.toFixed(1),variacao_ultima_atualizacao_pct:x.var==null?null:+x.var.toFixed(1)}}),
-      negocios:S.negocios.map(function(n){var s=negStats(n);return {nome:n,investido:s.inv,retorno:s.ret,saldo:s.saldo}}),
-      habito:{sequencia_atual:st.atual,melhor_sequencia:st.melhor,checkins_feitos:st.total}, ultimos_checkins:cks
-    };
-  }
-  var REGRAS='Você é o assistente financeiro do portal pessoal do Tiago (33 anos, brasileiro que trabalha nos EUA, recebe semanalmente e investe no Nubank). Responda em português do Brasil, direto e caloroso, em no máximo 220 palavras, em parágrafos curtos (sem tabelas).\n\nRegras do sistema dele, que você deve seguir:\n- Método ARCA (Thiago Nigro): 25% em Ações BR (BOVA11), Real estate (FIIs em rodízio mensal: HGLG11, XPML11, KNRI11, KNCR11), Caixa (Tesouro IPCA+ 2035) e Ativos internacionais (IVVB11). O aporte vai para a letra mais abaixo de 25%. Só considerar vender para rebalancear se uma letra ficar fora de 15%–35% por uns 6 meses.\n- Princípios de Buffett e Graham: investidor defensivo, índices baratos, margem de segurança, não reagir a oscilações, não vender em pânico.\n- Cascata semanal: consórcio e acordos, depois caixinha Lance (até R$ 20 mil, lance previsto para abril/2027), depois Reserva, depois ARCA. Sonhos: apartamento (~R$ 1 milhão) e carro (~R$ 600 mil, só quando for no máximo 10% do patrimônio).\n- Ele tem interesse em ações individuais no futuro (Fase 2, depois de estudar Graham), dentro da letra A, no máximo metade da letra e até ~5% da carteira por empresa.\n- O maior acelerador é a renda dos negócios: incentive foco em uma ou duas máquinas de renda, degrau a degrau (R$ 1 mil, 5 mil, 10 mil, 20 mil por mês).\n\nLimites: use os dados abaixo. Só use informação de mercado (notícias, cotações) se tiver a ferramenta de busca nesta pergunta, e cite a fonte em poucas palavras; nunca invente preços, notícias ou rendimentos. Se faltar um dado, diga qual e sugira que ele atualize no portal. Não é recomendação de investimento; não precisa repetir isso a cada frase, uma menção curta no fim basta.';
   var PERGUNTAS={
     analise:'Faça uma análise curta da situação atual da minha carteira e das caixinhas: o que está bem, o que merece atenção e qual é o próximo passo mais importante.',
     comprar:'Com o dinheiro que está na caixinha "ARCA – a investir", o que eu devo comprar agora e por quê, seguindo as regras da ARCA? Se a caixinha estiver vazia, diga o que vou comprar no próximo aporte.',
@@ -1077,27 +1569,210 @@
     [['analise','Analisar carteira'],['comprar','O que comprar agora'],['noticias','Notícias dos meus ativos'],['negocios','Meus negócios'],['semana','Resumo da semana']].forEach(function(x){h+='<button data-ai="'+x[0]+'"'+(aiBusy?' disabled':'')+'>'+x[1]+'</button>'});
     h+='</div><div class="card" style="margin-top:12px"><label class="field"><span>Ou escreva a sua pergunta</span><textarea id="aiQ" placeholder="Ex.: vale a pena aumentar o aporte no IVVB11 este mês?">'+esc(view.aiQ)+'</textarea></label><div class="actions"><button class="main" data-ai="livre"'+(aiBusy?' disabled aria-busy="true"':'')+'>Perguntar</button>'+(aiBusy?'<button class="ghost" data-act="aistop">Parar</button>':'')+'</div></div>';
     h+='<h2>Resposta</h2><div class="card'+(aiBusy?' is-thinking':'')+'">'+(aiBusy?'<div class="think-stones" aria-hidden="true"><i></i><i></i><i></i></div>':'')+'<div id="aiOut" class="ai-out'+((view.aiText&&!aiBusy)?' fade-in':'')+'">'+esc(view.aiText||'As respostas aparecem aqui.')+'</div>'+(view.aiNote?'<p class="note">'+esc(view.aiNote)+'</p>':'')+'</div>';
-    h+='<p class="note">As respostas usam a API do Claude (custo por uso na sua conta da Anthropic). "Notícias dos meus ativos" pesquisa na internet; as outras perguntas usam só os dados do portal.</p>';
+    h+=htmlPropostas();
+    h+=htmlLembrar();
+    h+='<p class="note">O Lastro pede os números ao portal e explica. Ele não grava nada: depósito, check-in e meta só entram quando você toca em Confirmar. "Notícias dos meus ativos" é a única pergunta que pesquisa na internet.</p>';
+    return h;
+  }
+  function nomeMem(kind){
+    return kind==='decisao'?'Decisão':kind==='preferencia'?'Preferência':'Contexto';
+  }
+  function dataMem(iso){
+    var d=new Date(iso);
+    if(isNaN(d.getTime())) return '';
+    return d.toLocaleDateString('pt-BR',{day:'numeric', month:'short', year:'numeric'});
+  }
+  function htmlLembrar(){
+    var lista=view.memLembrar||[];
+    if(!lista.length) return '';
+    var h='<article class="proposta" aria-label="Lastro quer lembrar"><h3>Lastro quer lembrar:</h3>';
+    lista.forEach(function(m,i){
+      h+='<p><span class="mem-kind">'+esc(nomeMem(m.kind))+'</span><br>'+esc(m.text)+'</p>';
+      h+='<button type="button" class="mini" data-act="mem-tirar" data-i="'+i+'">Tirar este</button>';
+    });
+    h+='<p class="note">Nada fica gravado até você confirmar.</p>';
+    h+='<div class="actions"><button type="button" class="main" data-act="mem-confirma">Confirmar</button><button type="button" class="ghost" data-act="mem-cancela">Agora não</button></div></article>';
+    return h;
+  }
+  function blocoUso(){
+    if(!view.usoPediu) pedirUso();
+    var h='<h2>Uso do Lastro este mês</h2>';
+    if(!view.uso) return h+'<p class="note">Contando.</p>';
+    if(view.uso.ok===false&&view.uso.motivo==='tabela') return h+'<p class="note">O uso ainda não está no banco. No Supabase, execute de novo o arquivo supabase/schema.sql.</p>';
+    if(view.uso.ok===false) return h+'<p class="note">Não deu para ler o uso agora.</p>';
+    if(!view.uso.respostas) return h+'<p class="note">Nenhuma resposta neste mês.</p>';
+    var tokens=Number(view.uso.entrada||0)+Number(view.uso.saida||0);
+    var erros=Number(view.uso.erros||0);
+    h+='<p class="note">'+view.uso.respostas+(view.uso.respostas===1?' resposta':' respostas')+' · '+tokens.toLocaleString('pt-BR')+' tokens · '+(erros?erros+(erros===1?' erro':' erros'):'nenhum erro')+'.</p>';
+    if(view.uso.ferramentas&&view.uso.ferramentas.length) h+='<p class="note">Ferramentas: '+view.uso.ferramentas.map(function(f){return esc(f.nome)+' ('+f.vezes+')'}).join(', ')+'.</p>';
+    return h;
+  }
+  function pedirUso(){
+    if(view.usoPediu) return;
+    view.usoPediu=true;
+    fetch('/api/uso?mes='+ymd(today()).slice(0,7))
+      .then(function(r){ if(r.status===401){location.href='/login';return null} return r.json().catch(function(){return null}) })
+      .then(function(j){ view.uso=j||{ok:false,motivo:'erro'}; if(S.tab==='ajustes'&&!view.memTela) render(); })
+      .catch(function(){ view.uso={ok:false,motivo:'erro'}; if(S.tab==='ajustes'&&!view.memTela) render(); });
+  }
+  function proporMemoria(pergunta, resposta){
+    fetch('/api/memoria/extrair',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pergunta:String(pergunta).slice(0,4000), resposta:String(resposta).slice(0,8000), hoje:ymd(today())})})
+      .then(function(r){ if(r.status===401){location.href='/login';return null} return r.json().catch(function(){return null}) })
+      .then(function(j){
+        if(!j||!j.itens||!j.itens.length) return;
+        view.memLembrar=j.itens;
+        if(S.tab==='assistente') render();
+      })
+      .catch(function(){});
+  }
+  function abrirMemoria(){
+    view.memTela=true; view.memLista=null; view.memErro=''; view.memEdit=null; view.memApagar=null;
+    render();
+    fetch('/api/memoria')
+      .then(function(r){ if(r.status===401){location.href='/login';return null} return r.json() })
+      .then(function(j){
+        if(!j) return;
+        view.memLista=j.itens||[];
+        view.memErro=j.ok===false?(j.motivo||'erro'):'';
+        if(S.tab==='ajustes'&&view.memTela) render();
+      })
+      .catch(function(){ view.memLista=[]; view.memErro='erro'; if(S.tab==='ajustes'&&view.memTela) render(); });
+  }
+  function chavePush(base64){
+    var pad='='.repeat((4-base64.length%4)%4);
+    var s=atob((base64+pad).replace(/-/g,'+').replace(/_/g,'/'));
+    var out=new Uint8Array(s.length);
+    for(var i=0;i<s.length;i++) out[i]=s.charCodeAt(i);
+    return out;
+  }
+  function ativarPush(){
+    if(!window.Notification||!navigator.serviceWorker){ flash('Este aparelho não recebe aviso.'); return }
+    Notification.requestPermission().then(function(perm){
+      if(perm!=='granted'){ flash('Sem permissão. O aviso continua desligado.'); return }
+      fetch('/api/push').then(function(r){ if(r.status===401){ location.href='/login'; return null } return r.json() }).then(function(j){
+        if(!j||!j.chave){ flash('O servidor ainda não tem a chave de aviso.'); return }
+        return navigator.serviceWorker.register('/sw.js').then(function(reg){
+          return reg.pushManager.subscribe({ userVisibleOnly:true, applicationServerKey:chavePush(j.chave) });
+        }).then(function(sub){
+          var json=sub.toJSON();
+          return fetch('/api/push',{ method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ endpoint:json.endpoint, p256dh:json.keys&&json.keys.p256dh, auth:json.keys&&json.keys.auth }) });
+        }).then(function(r){ if(r&&r.ok) flash('Avisos ligados neste aparelho.'); else flash('Não deu para ligar o aviso agora.'); });
+      }).catch(function(){ flash('Não deu para ligar o aviso agora.'); });
+    });
+  }
+  function pararPush(){
+    if(!navigator.serviceWorker){ flash('Este aparelho não recebe aviso.'); return }
+    navigator.serviceWorker.getRegistration('/sw.js').then(function(reg){
+      if(!reg) return null;
+      return reg.pushManager.getSubscription().then(function(sub){
+        if(!sub) return null;
+        var endpoint=sub.endpoint;
+        return sub.unsubscribe().then(function(){ return endpoint });
+      });
+    }).then(function(endpoint){
+      if(!endpoint){ flash('Este aparelho já estava desligado.'); return }
+      return fetch('/api/push',{ method:'DELETE', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ endpoint:endpoint }) }).then(function(){ flash('Avisos desligados neste aparelho.'); });
+    }).catch(function(){ flash('Não deu para desligar o aviso agora.'); });
+  }
+  function tMemoria(){
+    var h='<h1>Memória do Lastro</h1><p class="sub">Só entra o que você confirma. Dado sensível não fica aqui.</p>';
+    h+='<div class="actions"><button type="button" class="ghost" data-act="mem-fechar">Voltar aos ajustes</button></div>';
+    if(view.memLista===null) return h+'<p class="note">Olhando a memória.</p>';
+    if(view.memErro==='tabela') return h+'<p class="alert">A memória ainda não está no banco. No Supabase, execute de novo o arquivo supabase/schema.sql.</p>';
+    if(view.memErro) return h+'<p class="alert">Não deu para abrir a memória agora.</p>';
+    if(!view.memLista.length) return h+'<p class="note">Nada guardado ainda. Depois de uma conversa, ele pede licença para lembrar.</p>';
+    view.memLista.forEach(function(m){
+      h+='<article class="card memoria"><p class="mem-kind">'+esc(nomeMem(m.kind))+(m.created_at?' · '+esc(dataMem(m.created_at)):'')+'</p>';
+      if(view.memEdit===m.id){
+        h+='<label class="field"><span>Tipo</span><select id="memKind"><option value="decisao"'+(m.kind==='decisao'?' selected':'')+'>Decisão</option><option value="preferencia"'+(m.kind==='preferencia'?' selected':'')+'>Preferência</option><option value="contexto"'+(m.kind==='contexto'?' selected':'')+'>Contexto</option></select></label>';
+        h+='<label class="field"><span>Texto</span><textarea id="memTexto">'+esc(m.text)+'</textarea></label>';
+        h+='<div class="actions"><button type="button" class="main" data-act="mem-salvar" data-id="'+esc(m.id)+'">Salvar</button><button type="button" class="ghost" data-act="mem-editar-cancela">Cancelar</button></div>';
+      } else {
+        h+='<p>'+esc(m.text)+'</p>';
+        var apagando=view.memApagar===m.id;
+        h+='<div class="actions"><button type="button" class="ghost" data-act="mem-editar" data-id="'+esc(m.id)+'">Editar</button><button type="button" class="mini'+(apagando?' warn':'')+'" data-act="mem-apagar" data-id="'+esc(m.id)+'">'+(apagando?'Apagar de vez':'Apagar')+'</button></div>';
+      }
+      h+='</article>';
+    });
     return h;
   }
   function aiErr(c){return {not_granted:'Você não autorizou o uso do Claude nesta página.',rate_limited:'Muitas perguntas seguidas. Espere um pouco e tente de novo.',session_expired:'Sua sessão expirou. Recarregue a página.',prompt_too_large:'Dados demais para uma pergunta.',refused:'O Claude não respondeu a esta pergunta.',sampling_disabled:'O assistente está desativado na sua conta.'}[c]||'Não foi possível responder agora.'}
+  function estadoAgente(){
+    function corta(s,n){return String(s==null?'':s).slice(0,n)}
+    var ch={};
+    Object.keys(S.checkins||{}).forEach(function(k){
+      var c=S.checkins[k]||{};
+      ch[k]={gastos:c.gastos, extra:c.extra, mexeu:c.mexeu, motivo:corta(c.motivo,160), negocios:corta(c.negocios,400), vitoria:corta(c.vitoria,240), escorreguei:corta(c.escorreguei,240), foraNormal:corta(c.foraNormal,160), extraOrigem:corta(c.extraOrigem,80)};
+    });
+    return {
+      cfg:{entrada:S.cfg.entrada, cambio:S.cfg.cambio, consorcio:S.cfg.consorcio, lanceMensal:S.cfg.lanceMensal, lanceMeta:S.cfg.lanceMeta, reservaMeta:S.cfg.reservaMeta, pctReserva:S.cfg.pctReserva, taxa:S.cfg.taxa, idade:S.cfg.idade, metaMilhao:S.cfg.metaMilhao, aptoMeta:S.cfg.aptoMeta, carroMeta:S.cfg.carroMeta, rendaLiquida:S.cfg.rendaLiquida, horasMes:S.cfg.horasMes},
+      acordos:(S.acordos||[]).map(function(a){return {nome:a.nome, valor:a.valor, inicio:a.inicio, n:a.n}}),
+      saldos:S.saldos, aportes:S.aportes, checkins:ch,
+      caixinhasMov:(S.caixinhasMov||[]).slice(-400).map(function(m){return {caixinha:m.caixinha, tipo:m.tipo, valor:m.valor, data:m.data, motivo:corta(m.motivo,120), origem:m.origem}}),
+      bandaFora:S.bandaFora||{},
+      outrasContas:(S.outrasContas||[]).map(function(c){return {nome:c.nome, saldo:c.saldo}}),
+      negocios:S.negocios||[],
+      movs:(S.movs||[]).slice(-200).map(function(m){return {neg:m.neg, tipo:m.tipo, valor:m.valor, data:m.data}}),
+      ativos:(S.ativos||[]).map(function(a){return {t:a.t, l:a.l||'', qtd:a.qtd}}),
+      conferencia:S.conferencia&&S.conferencia.data?{data:S.conferencia.data}:null
+    };
+  }
+  function htmlPropostas(){
+    var lista=view.aiPropostas||[];
+    if(!lista.length) return '';
+    var h='';
+    lista.forEach(function(p,i){
+      h+='<article class="proposta"><h3>'+esc(p.titulo||'Lastro quer registrar')+'</h3><p>'+esc(p.detalhe||'')+'</p><p class="note">Nada muda até você confirmar.</p>';
+      h+='<div class="actions"><button type="button" class="main" data-act="ai-confirma" data-i="'+i+'">Confirmar</button><button type="button" class="ghost" data-act="ai-cancela" data-i="'+i+'">Cancelar</button></div></article>';
+    });
+    return h;
+  }
+  function separarAi(t){
+    var partes=String(t||'').split('@@PROPOSTA@@');
+    var texto=partes[0].replace(/@@FIM@@/g,'').trim();
+    var propostas=[];
+    for(var i=1;i<partes.length;i++){
+      var pedaco=partes[i].split('@@FIM@@')[0];
+      try{ propostas.push(JSON.parse(decodeURIComponent(pedaco))) }catch(err){}
+    }
+    return {texto:texto, propostas:propostas};
+  }
+  function visivelAi(buf){
+    var i=buf.indexOf('@@PROPOSTA@@');
+    var base=i<0?buf:buf.slice(0,i);
+    if(i<0){ var corte=base.lastIndexOf('@@'); if(corte>=0) base=base.slice(0,corte) }
+    return base;
+  }
   function perguntar(tipo){
     if(!sampleApi||aiBusy) return;
     var q=tipo==='livre'?(document.getElementById('aiQ')||{}).value||'':PERGUNTAS[tipo];
     q=String(q).trim(); if(!q){flash('Escreva uma pergunta');return}
     view.aiQ=tipo==='livre'?q:view.aiQ;
-    var input=REGRAS+'\n\nDADOS DO PORTAL (JSON):\n'+JSON.stringify(contexto())+'\n\nPERGUNTA DO TIAGO:\n'+q;
+    view.aiPropostas=[];
+    view.memLembrar=null;
     aiCtl=new AbortController(); aiBusy=true; view.aiText='Pensando…'; view.aiNote=''; render();
-    var web=tipo==='noticias';
-    fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt:input,web:web}),signal:aiCtl.signal})
+    var modo=tipo==='noticias'?'noticias':'portal';
+    fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pergunta:q, modo:modo, hoje:ymd(today()), estado:estadoAgente()}),signal:aiCtl.signal})
       .then(function(r){
         if(r.status===401){location.href='/login';throw {code:'auth'}}
         if(!r.ok||!r.body) throw {code:'http'};
-        var reader=r.body.getReader(), dec=new TextDecoder(), txt='';
-        function pump(){return reader.read().then(function(x){ if(x.done) return txt; txt+=dec.decode(x.value,{stream:true}); view.aiText=txt; var el=document.getElementById('aiOut'); if(el) el.textContent=txt; return pump() })}
+        var reader=r.body.getReader(), dec=new TextDecoder(), buf='';
+        function pump(){return reader.read().then(function(x){
+          if(x.done) return buf;
+          buf+=dec.decode(x.value,{stream:true});
+          var vis=visivelAi(buf).trim();
+          view.aiText=vis||'Pensando…';
+          var el=document.getElementById('aiOut'); if(el) el.textContent=view.aiText;
+          return pump();
+        })}
         return pump();
       })
-      .then(function(t){view.aiText=t||'(sem resposta)'})
+      .then(function(t){
+        var sep=separarAi(t);
+        view.aiText=sep.texto||'(sem resposta)';
+        view.aiPropostas=sep.propostas;
+        if(sep.texto) proporMemoria(q, sep.texto);
+      })
       .catch(function(e){ if(e&&e.name==='AbortError'){view.aiNote='Interrompido.'} else {view.aiNote='Não foi possível responder agora. Confira a chave da API nas variáveis de ambiente.'} })
       .then(function(){aiBusy=false; aiCtl=null; if(S.tab==='assistente') render()});
   }
@@ -1109,6 +1784,7 @@
       checkin:'<circle cx="12" cy="12" r="8"/><path d="M8.5 12.2 L11 14.5 L15.5 9.5"/>',
       arca:'<rect x="3.5" y="3.5" width="7" height="7" rx="1.2"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.2"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.2"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.2"/>',
       mercado:'<path d="M4 16 L9 11 L13 14 L20 7"/><path d="M15 7 H20 V12"/>',
+      caixinhas:'<rect x="3" y="4" width="8" height="7" rx="1.4"/><rect x="13" y="4" width="8" height="7" rx="1.4"/><rect x="3" y="13" width="8" height="7" rx="1.4"/><rect x="13" y="13" width="8" height="7" rx="1.4"/>',
       assistente:'<path d="M5 16.5 V8.5 A4 4 0 0 1 12 6.5"/><path d="M19 7.5 V15.5 A4 4 0 0 1 12 17.5"/><path d="M12 6.5 V17.5"/>',
       negocios:'<path d="M4 18 V11 H9 V18"/><path d="M10 18 V6 H15 V18"/><path d="M16 18 V13 H20 V18"/>',
       futuro:'<path d="M12 19 V6"/><path d="M7 10 L12 5 L17 10"/>',
@@ -1260,18 +1936,176 @@
     setTimeout(close, 1050);
   }
 
+  var CAIXAS=[
+    {id:'reserva', nome:'Reserva de Emergência', funcao:'Emergências reais. Nunca para desejos.', meta:'reservaMeta', cor:'var(--reserve)', tom:'reserve'},
+    {id:'lance', nome:'Lance CB650R', funcao:'Dinheiro do lance do consórcio, em renda fixa. Meta prevista para abril/2027.', meta:'lanceMeta', cor:'var(--lance)', tom:'lance'},
+    {id:'apto', nome:'Apartamento', funcao:'Sonho de Primeira Geração. Recebe aporte a partir da Fase 2.', meta:'aptoMeta', cor:'var(--dream)', tom:'dream'},
+    {id:'carro', nome:'Carro dos sonhos', funcao:'Só quando o valor for no máximo 10% do patrimônio investido.', meta:'carroMeta', cor:'var(--dream)', tom:'dream'},
+    {id:'arcaInvestir', nome:'ARCA – a investir', funcao:'Passagem. O dinheiro espera aqui só até a compra na segunda ou terça. Deve voltar a zero toda semana.', meta:'', cor:'var(--arca)', tom:'arca'}
+  ];
+  function caixaPorId(id){var a=null; CAIXAS.forEach(function(c){if(c.id===id)a=c}); return a}
+  function movsCaixa(id){
+    return (Array.isArray(S.caixinhasMov)?S.caixinhasMov:[]).filter(function(m){return m&&(!id||m.caixinha===id)}).slice().sort(function(a,b){return a.data<b.data?1:a.data>b.data?-1:0});
+  }
+  function anotarCaixa(caixinha, tipo, valor, data, motivo, origem){
+    var v=Math.round(num(valor)*100)/100;
+    if(!(v>0)) return;
+    if(!Array.isArray(S.caixinhasMov)) S.caixinhasMov=[];
+    S.caixinhasMov.push({id:'cx'+data+caixinha+tipo+S.caixinhasMov.length, caixinha:caixinha, tipo:tipo, valor:v, data:data, motivo:motivo||'', origem:origem});
+  }
+  function ritmoSemanal(id){
+    if(id==='lance'||id==='reserva'||id==='arcaInvestir'){
+      var sat=satOnOrAfter(today());
+      for(var i=0;i<6;i++){
+        var cyc=cycleOf(sat);
+        if(cyc.idx!==0&&cyc.sats.length){
+          var t=metas(cyc), chave=id==='arcaInvestir'?'arca':id, v=t[chave]/cyc.sats.length;
+          if(v>0) return v;
+        }
+        sat=addDays(sat,7);
+      }
+      return 0;
+    }
+    var corte=addDays(today(),-28), soma=0;
+    movsCaixa(id).forEach(function(m){ if(m.tipo==='deposito'&&parse(m.data)>=corte) soma+=num(m.valor) });
+    return soma/4;
+  }
+  function diasArcaParada(){
+    if(!(num(S.saldos.arcaInvestir)>0)) return 0;
+    var movs=movsCaixa('arcaInvestir').slice().reverse();
+    var desde=null, bal=0;
+    if(movs.length){
+      movs.forEach(function(m){
+        if(m.tipo==='deposito'){ if(bal<=0.004) desde=m.data; bal+=num(m.valor) }
+        else { bal-=num(m.valor); if(bal<=0.004){ bal=0; desde=null } }
+      });
+    }
+    if(!desde){
+      var ks=Object.keys(S.aportes||{}).filter(function(k){return S.aportes[k]&&num(S.aportes[k].arca)>0}).sort();
+      if(ks.length) desde=ks[ks.length-1];
+    }
+    if(!desde) return null;
+    return Math.max(0, Math.round((today()-parse(desde))/864e5));
+  }
+  function preencherMexeu(motivo){
+    view.ciDate=satOnOrBefore(today());
+    ciDraft.mexeu='sim';
+    ciDraft.motivo=motivo;
+  }
+  function aplicarMovimento(id, tipo, valor, motivo, origem){
+    var v=Math.round(num(valor)*100)/100;
+    if(!(v>0)||!caixaPorId(id)) return false;
+    if(tipo==='retirada'&&v>num(S.saldos[id])+1e-9){ flash('O valor passa do saldo.'); return false }
+    if(tipo==='retirada') S.saldos[id]=Math.max(0, Math.round((num(S.saldos[id])-v)*100)/100);
+    else S.saldos[id]=Math.round((num(S.saldos[id])+v)*100)/100;
+    anotarCaixa(id, tipo, v, ymd(today()), motivo, origem);
+    round();
+    return true;
+  }
+  function linhasMov(lista){
+    if(!lista.length) return '<p class="sub">Nenhum movimento ainda.</p>';
+    var h='<ul class="cx-movs">';
+    lista.forEach(function(m){
+      h+='<li><span>'+fmtDate(parse(m.data))+' · '+(m.tipo==='retirada'?'Retirada':'Depósito')+'</span><b class="num '+(m.tipo==='retirada'?'neg':'pos')+'">'+(m.tipo==='retirada'?'− ':'+ ')+money(m.valor)+'</b>'+(m.motivo?'<small>'+esc(m.motivo)+'</small>':'')+'</li>';
+    });
+    return h+'</ul>';
+  }
+  function conferenciaAviso(){
+    var c=S.conferencia, data=c&&c.data;
+    var h='<p class="sub">Última conferência: '+(data?fmtDate(parse(data)):'nenhuma ainda')+'</p>';
+    var dias=data?Math.round((today()-parse(data))/864e5):31;
+    if(dias>30) h+='<p class="alert">Uma vez por mês, digite o saldo do app do Nubank. Se diferir, o portal se ajusta. O app é a fonte da verdade.</p>';
+    return h;
+  }
+  function tCaixinhas(){
+    if(view.cxHist){
+      var alvo=caixaPorId(view.cxHist);
+      if(!alvo){ view.cxHist=''; }
+      else {
+        var lista=movsCaixa(alvo.id).filter(function(m){ return view.cxTipo==='todos'||m.tipo===view.cxTipo });
+        var h0='<h1>'+esc(alvo.nome)+'</h1><p class="sub">Histórico</p>';
+        h0+='<div class="chips" style="margin-top:12px">';
+        [['todos','Todos'],['deposito','Depósitos'],['retirada','Retiradas']].forEach(function(f){
+          h0+='<button type="button" data-act="cx-tipo" data-tipo="'+f[0]+'" aria-pressed="'+(view.cxTipo===f[0])+'">'+f[1]+'</button>';
+        });
+        h0+='</div><div class="card" style="margin-top:12px">'+linhasMov(lista)+'</div>';
+        h0+='<div class="actions"><button type="button" class="ghost" data-act="cx-voltar">Voltar às caixinhas</button></div>';
+        return h0;
+      }
+    }
+    var h='<h1>Caixinhas</h1><p class="sub">As cinco caixinhas estão no Nubank, em renda fixa com liquidez diária, perto de 100% do CDI.</p>';
+    h+=conferenciaAviso();
+    h+='<div class="actions"><button type="button" class="main" data-act="cx-conf">'+(view.cxConf?'Fechar conferência':'Conferir com o Nubank')+'</button></div>';
+    if(view.cxConf){
+      h+='<div class="card cx-conf"><p>Uma vez por mês, digite o saldo que o app do Nubank mostra em cada caixinha. Se for diferente, o portal se ajusta. O app é a fonte da verdade.</p>';
+      CAIXAS.forEach(function(c){
+        var ja=(view.cxDiff||[]).filter(function(x){return x.id===c.id})[0];
+        h+='<label class="field"><span>'+esc(c.nome)+'</span><input id="cxn-'+c.id+'" inputmode="decimal" value="'+esc(textoDinheiro(ja?ja.app:S.saldos[c.id]))+'" aria-label="Saldo no Nubank de '+esc(c.nome)+'"></label>';
+      });
+      h+='<div class="actions"><button type="button" class="main" data-act="cx-comparar">Comparar</button></div>';
+      if(view.cxDiff){
+        var difs=view.cxDiff.filter(function(d){return !d.igual});
+        if(!difs.length) h+='<p class="note">Os valores batem com o portal.</p>';
+        difs.forEach(function(d){
+          var c=caixaPorId(d.id);
+          h+='<p>'+esc(c.nome)+': o app mostra '+money(d.app)+' e o portal '+money(d.portal)+'.</p>';
+          h+='<div class="actions"><button type="button" class="ghost" data-act="cx-ajustar" data-cx="'+d.id+'">Ajustar o portal para o valor do app</button></div>';
+        });
+      }
+      h+='</div>';
+    }
+    var parada=diasArcaParada();
+    h+='<div class="cx-list">';
+    CAIXAS.forEach(function(c){
+      var saldo=num(S.saldos[c.id]), meta=c.meta?num(S.cfg[c.meta]):0, pc=meta>0?Math.min(100, saldo/meta*100):0;
+      h+='<article class="card cx-card cx-'+c.tom+'" style="--cx:'+c.cor+'" aria-label="'+esc(c.nome)+'">';
+      h+='<div class="cx-head"><span class="cx-ico" aria-hidden="true"></span><div><h2>'+esc(c.nome)+'</h2><p>'+esc(c.funcao)+'</p></div></div>';
+      h+='<p class="cx-saldo num">'+money(saldo)+'</p>';
+      if(c.meta){
+        h+=meta>0?'<p class="sub">Meta '+money(meta)+' · '+pc.toFixed(pc>0&&pc<1?1:0)+'%</p><div class="bar" aria-hidden="true"><i style="width:'+pc.toFixed(1)+'%;--c:'+c.cor+'"></i></div>':'<p class="sub">Meta a definir</p>';
+      }
+      if(c.id==='arcaInvestir'&&saldo>0&&parada>7) h+='<p class="alert">ARCA – a investir é passagem e deve zerar toda semana. Este valor está aqui há '+parada+' dias. Compre no próximo dia útil.</p>';
+      h+='<h3>Últimos movimentos</h3>'+linhasMov(movsCaixa(c.id).slice(0,3));
+      h+='<div class="actions"><button type="button" class="main" data-act="cx-form" data-cx="'+c.id+'" data-tipo="deposito">Depositar</button><button type="button" class="ghost" data-act="cx-form" data-cx="'+c.id+'" data-tipo="retirada">Retirar</button><button type="button" class="ghost" data-act="cx-hist" data-cx="'+c.id+'">Histórico</button></div>';
+      if(view.cxForm===c.id+'|deposito'||view.cxForm===c.id+'|retirada'){
+        var tipo=view.cxForm.split('|')[1], pede=tipo==='retirada'&&c.id!=='arcaInvestir';
+        h+='<div class="cx-form"><label class="field"><span>Valor (R$)</span><input id="cxv" inputmode="decimal" placeholder="0,00"></label>';
+        h+='<label class="field"><span>Motivo'+(pede?'':' (opcional)')+'</span><input id="cxm" placeholder="'+(pede?'Por que vai sair desta caixinha':'')+'"></label>';
+        h+='<div class="actions"><button type="button" class="main" data-act="cx-ok" data-cx="'+c.id+'" data-tipo="'+tipo+'">'+(tipo==='retirada'?'Ver impacto':'Guardar depósito')+'</button></div></div>';
+      }
+      if(view.cxPend&&view.cxPend.id===c.id){
+        var pend=view.cxPend;
+        h+='<div class="card cx-pend" role="region" aria-label="Confirmar retirada"><p>Retirar '+money(pend.valor)+' de '+esc(c.nome)+'.</p>';
+        h+=pend.dias==null?'<p>Não dá para estimar o atraso: ainda não há um ritmo semanal.</p>':'<p>No ritmo desta semana, isso atrasa a meta em '+pend.dias+' '+(pend.dias===1?'dia':'dias')+'.</p>';
+        h+='<div class="actions"><button type="button" class="main" data-act="cx-confirma">Confirmar retirada</button><button type="button" class="ghost" data-act="cx-cancela">Cancelar</button></div></div>';
+      }
+      h+='</article>';
+    });
+    h+='</div>';
+    h+='<h2>Outras contas</h2><p class="sub">Fora das caixinhas. Entram no patrimônio, não na soma das caixinhas.</p><div class="card">';
+    (Array.isArray(S.outrasContas)?S.outrasContas:[]).forEach(function(c,i){
+      h+='<div class="grid2"><label class="field"><span>Nome</span><input id="cxo-nome-'+i+'" value="'+esc(c.nome||'')+'"></label>';
+      h+='<label class="field"><span>Saldo (R$)</span><input id="cxo-saldo-'+i+'" inputmode="decimal" value="'+esc(c.saldo===''||c.saldo==null?'':textoDinheiro(c.saldo))+'"></label>';
+      h+='<label class="field full"><span>Função</span><input id="cxo-fun-'+i+'" value="'+esc(c.funcao||'')+'" placeholder="Você define depois"></label></div>';
+    });
+    h+='<div class="actions"><button type="button" class="main" data-act="cx-contas">Salvar contas</button><button type="button" class="ghost" data-act="cx-conta-add">Adicionar conta</button></div></div>';
+    return h;
+  }
+
   function render(){
     applyTheme();
     var main=[['inicio','Início'],['sabado','Sábado'],['checkin','Check-in'],['arca','ARCA'],['mercado','Mercado']];
-    var more=[['assistente','Assistente'],['negocios','Negócios'],['futuro','Futuro'],['ajustes','Ajustes']];
+    var more=[['caixinhas','Caixinhas'],['assistente','Assistente'],['negocios','Negócios'],['futuro','Futuro'],['ajustes','Ajustes']];
     var nav='<input class="nav-mais-input" id="nav-mais" type="checkbox">'
       +'<div class="nav-bar">'+main.map(function(t){return navBtn(t[0],t[1])}).join('')
       +'<label class="nav-mais" for="nav-mais">'+navMark('mais')+'<span>Mais</span></label></div>'
       +'<div class="nav-sheet">'+more.map(function(t){return navBtn(t[0],t[1])}).join('')+'</div>';
     document.getElementById('nav').innerHTML=nav;
-    var f={inicio:tInicio,sabado:tSabado,checkin:tCheckin,arca:tArca,mercado:tMercado,assistente:tAssistente,negocios:tNegocios,futuro:tFuturo,ajustes:tAjustes}[S.tab]||tInicio;
+    var f={inicio:tInicio,sabado:tSabado,checkin:tCheckin,arca:tArca,mercado:tMercado,caixinhas:tCaixinhas,assistente:tAssistente,negocios:tNegocios,futuro:tFuturo,ajustes:tAjustes}[S.tab]||tInicio;
     document.getElementById('root').innerHTML=f();
     motion.escolha=false;
+    pedirInsights();
+    pedirBriefing();
   }
 
   /* ---------- salvar ---------- */
@@ -1294,6 +2128,13 @@
     var t=e.target;
     if(t.dataset&&t.dataset.ciF){ciDraft[t.dataset.ciF]=t.value}
     if(t.id==='aiQ'){view.aiQ=t.value}
+    if(t.id==='cmdQ'){view.cmdTexto=t.value;return}
+    if(t.id==='bolsaQ'){
+      view.bolsaQ=t.value;
+      clearTimeout(carregarBolsa.espera);
+      carregarBolsa.espera=setTimeout(function(){ carregarBolsa(false) }, 300);
+      return}
+    if(t.id==='sonhoMeta'){mascaraMeta(t);return}
     if(t.id==='seExtra'||t.id==='seAporte'||t.id==='seTaxa'){
       if(t.id==='seExtra') view.seExtra=num(t.value);
       if(t.id==='seAporte') view.seAporte=num(t.value);
@@ -1309,6 +2150,10 @@
   });
   document.addEventListener('change',function(e){
     var t=e.target, d=t.dataset||{};
+    if(t.id==='sonhoMeta'){
+      var bruto=String(t.value).trim();
+      if(bruto!=='') t.value=textoDinheiro(num(bruto));
+      return}
     if(d.lf&&d.livro){
       var lv=livroPorId(d.livro);
       if(lv&&(d.lf==='inicio'||d.lf==='fim'||d.lf==='ideia')){
@@ -1325,39 +2170,168 @@
     if(d.rec){view.rec=num(t.value);view.recKey=d.rec;render();return}
     if(t.id==='impFile'&&t.files&&t.files[0]){var fr=new FileReader();fr.onload=function(){try{var o=JSON.parse(fr.result); if(o&&o.cfg&&o.saldos){S=mergeState(o);commit();flash('Backup restaurado')} else flash('Arquivo inválido')}catch(e){flash('Arquivo inválido')}};fr.readAsText(t.files[0]);return}
     if(d.sonhoFoto&&t.files&&t.files[0]){var sid=d.sonhoFoto, file=t.files[0];
+      var local=URL.createObjectURL(file);
+      mostrarFotoQuadro(sid, local);
       reduzirFoto(file,function(blob){
         if(!blob){flash('Não consegui preparar a foto.');return}
-        var fd=new FormData(); fd.append('id',sid); fd.append('file',blob,sid+'.jpg');
+        var fd=new FormData(), nome=sid+'-'+Date.now();
+        fd.append('id', nome); fd.append('file', blob, nome+'.jpg');
         fetch('/api/upload',{method:'POST',body:fd}).then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j}})}).then(function(x){
           if(!x.ok||!x.j||!x.j.path){flash((x.j&&x.j.error)||'A foto não foi salva.');return}
           var card=null; sonhosLista().forEach(function(c){if(c.id===sid)card=c});
           if(!card){flash('Sonho não encontrado.');return}
+          if(view.fotoPrevia) delete view.fotoPrevia[sid];
+          URL.revokeObjectURL(local);
           guardarSonho(card.id,card.nome,card.metaRef,x.j.path,card.fixo?null:card.meta);
           flash('Foto guardada.');
         }).catch(function(){flash('Sem conexão para enviar a foto.')});
       });
       return}
+    if(t.id==='nvClasse'){var nvTipo=document.getElementById('nvTipo'); if(nvTipo) nvTipo.innerHTML=htmlTipos(t.value); return}
     if(d.preco!=null){var a=S.ativos[+d.preco], p=num(t.value); if(p>0&&p!==a.preco){setPreco(a,p); commit(); flash('Cotação atualizada')} return}
   });
   document.addEventListener('click',function(e){
     var b=e.target.closest('button'); if(!b) return; var d=b.dataset;
     if(d.tema){S.tema=d.tema;commit();return}
-    if(d.tab||d.go){if(view.vozModo==='ouvindo'){pararMic();view.vozModo='off'} var proxTab=d.tab||d.go; if(proxTab!=='inicio') view.mural=false; if(proxTab!=='futuro'){view.linha=false;view.estante=false} S.tab=proxTab;pendingDel=null;render();window.scrollTo(0,0);return}
+    if(d.tab||d.go){if(view.vozModo==='ouvindo'){pararMic();view.vozModo='off'} pararCmd(); var proxTab=d.tab||d.go; if(proxTab!=='inicio') view.mural=false; if(proxTab!=='futuro'){view.linha=false;view.estante=false} if(proxTab!=='ajustes') view.memTela=false; S.tab=proxTab;pendingDel=null;render();window.scrollTo(0,0);return}
     if(d.sab){view.sab=addDays(view.sab,+d.sab);view.rec=null;render();return}
     if(d.ci){flushCi();view.ciDate=addDays(view.ciDate,+d.ci);ciDraft={};render();return}
     if(d.mexeu){flushCi();ciDraft.mexeu=d.mexeu;render();return}
     if(d.mt){view.movTipo=d.mt;render();return}
     if(d.act==='exec'){var dt=parse(d.k), w=semana(dt); S.aportes[d.k]={recebido:w.rec,consorcio:w.alloc.consorcio,acordos:w.alloc.acordos,lance:w.alloc.lance,reserva:w.alloc.reserva,arca:w.alloc.arca};
-      S.saldos.lance+=w.alloc.lance;S.saldos.reserva+=w.alloc.reserva;S.saldos.arcaInvestir+=w.alloc.arca;round();view.rec=null;commit();flash('Cascata registrada');return}
-    if(d.act==='undo'){var a=S.aportes[d.k]; if(a){S.saldos.lance-=a.lance;S.saldos.reserva-=a.reserva;S.saldos.arcaInvestir=Math.max(0,S.saldos.arcaInvestir-a.arca);delete S.aportes[d.k];round();commit()}return}
+      S.saldos.lance+=w.alloc.lance;S.saldos.reserva+=w.alloc.reserva;S.saldos.arcaInvestir+=w.alloc.arca;round();
+      anotarCaixa('lance','deposito',w.alloc.lance,d.k,'Cascata do sábado','cascata');
+      anotarCaixa('reserva','deposito',w.alloc.reserva,d.k,'Cascata do sábado','cascata');
+      anotarCaixa('arcaInvestir','deposito',w.alloc.arca,d.k,'Cascata do sábado','cascata');
+      view.rec=null;commit();flash('Cascata registrada');return}
+    if(d.act==='undo'){var a=S.aportes[d.k]; if(a){var antesArca=num(S.saldos.arcaInvestir);S.saldos.lance-=a.lance;S.saldos.reserva-=a.reserva;S.saldos.arcaInvestir=Math.max(0,S.saldos.arcaInvestir-a.arca);delete S.aportes[d.k];round();
+      anotarCaixa('lance','retirada',a.lance,d.k,'Desfazer cascata','cascata');
+      anotarCaixa('reserva','retirada',a.reserva,d.k,'Desfazer cascata','cascata');
+      anotarCaixa('arcaInvestir','retirada',antesArca-num(S.saldos.arcaInvestir),d.k,'Desfazer cascata','cascata');
+      commit()}return}
     if(d.act==='saveci'){flushCi();pararMic();view.vozCampos=null;view.vozModo='off';var k2=d.k;S.checkins[k2]=Object.assign({mexeu:'não'},S.checkins[k2]||{},ciDraft);ciDraft={};commit();flash('Check-in salvo ✓');return}
     if(d.act==='voz-iniciar'){view.vozTexto='';view.vozInterim='';view.vozLeft=30;view.vozModo='ouvindo';render();ligarMic();return}
     if(d.act==='voz-parar'){concluirVoz();return}
     if(d.act==='voz-enviar'){var caixa=document.getElementById('vozCaixa'); var relato=caixa?String(caixa.value).trim():String(view.vozTexto||'').trim();
       if(!relato){flash('Escreva ou dite o relato antes.');return}
       view.vozTexto=relato; enviarVoz(relato); return}
+    if(d.act==='lembrete-conf'){S.tab='caixinhas'; view.cxConf=true; view.cxHist=''; render(); window.scrollTo(0,0); return}
+    if(d.act==='insight-meta'){
+      var valorMeta=num(d.valor);
+      if(!(valorMeta>0)) return;
+      if(d.ok==='1'&&view.insightOk===valorMeta){
+        S.cfg.reservaMeta=valorMeta;
+        view.insightOk=null;
+        view.insights=null;
+        view.insightsChave='';
+        commit();
+        flash('Meta da reserva definida');
+        return;
+      }
+      view.insightOk=valorMeta;
+      pintarInsights();
+      return;
+    }
+    if(d.act==='lembrete-perm'){
+      if(!window.Notification){flash('Este aparelho não mostra aviso.');return}
+      Notification.requestPermission().then(function(p){
+        if(p==='granted'){flash('Aviso ligado. No sábado, às 8h, ele chega se houver o que dizer.'); dispararLembrete()}
+        else flash('Sem permissão. O lembrete continua na tela de sábado.');
+        render();
+      });
+      return}
+    if(d.act==='cmd-voz'){ouvirComando();return}
+    if(d.act==='cmd-parar'){pararCmd();render();return}
+    if(d.act==='cmd-enviar'){enviarComando();return}
+    if(d.act==='cmd-cancela'){view.cmdProposta=null;render();return}
+    if(d.act==='mem-tirar'){
+      view.memLembrar=(view.memLembrar||[]).filter(function(_,i){return i!==+d.i});
+      if(!view.memLembrar.length) view.memLembrar=null;
+      render(); return}
+    if(d.act==='mem-cancela'){view.memLembrar=null;render();return}
+    if(d.act==='mem-confirma'){
+      var lembrar=view.memLembrar||[];
+      if(!lembrar.length) return;
+      fetch('/api/memoria',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({itens:lembrar})})
+        .then(function(r){ if(r.status===401){location.href='/login';return null} return r.json() })
+        .then(function(j){
+          if(j&&j.ok){ view.memLembrar=null; view.memLista=null; flash('Memória guardada'); }
+          else if(j&&j.motivo==='sensivel') flash('Esse texto tem dado sensível. Não guardo.');
+          else if(j&&j.motivo==='tabela') flash('A memória ainda não está no banco.');
+          else flash('Não deu para guardar agora.');
+          if(S.tab==='assistente') render();
+        })
+        .catch(function(){ flash('Não deu para guardar agora.'); });
+      return}
+    if(d.act==='mem-abrir'){abrirMemoria();return}
+    if(d.act==='aviso-toggle'){
+      if(!S.avisos) S.avisos={sabado:false,arca:false,contas:false,nudge:false,revisao:false};
+      if(!Object.prototype.hasOwnProperty.call(S.avisos,d.tipo)) return;
+      S.avisos[d.tipo]=!S.avisos[d.tipo];
+      commit();
+      return}
+    if(d.act==='push-ativar'){ativarPush();return}
+    if(d.act==='push-parar'){pararPush();return}
+    if(d.act==='mem-fechar'){view.memTela=false;view.memEdit=null;view.memApagar=null;render();return}
+    if(d.act==='mem-editar'){view.memEdit=d.id;view.memApagar=null;render();return}
+    if(d.act==='mem-editar-cancela'){view.memEdit=null;render();return}
+    if(d.act==='mem-salvar'){
+      var kindEl=document.getElementById('memKind'), textoEl=document.getElementById('memTexto');
+      var kind=kindEl?kindEl.value:'contexto', texto=textoEl?String(textoEl.value).trim():'';
+      fetch('/api/memoria',{method:'PATCH',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:d.id, kind:kind, text:texto})})
+        .then(function(r){ if(r.status===401){location.href='/login';return null} return r.json() })
+        .then(function(j){
+          if(j&&j.ok&&j.item){
+            view.memLista=(view.memLista||[]).map(function(m){return m.id===j.item.id?j.item:m});
+            view.memEdit=null; flash('Memória atualizada');
+          } else if(j&&j.motivo==='sensivel') flash('Esse texto tem dado sensível. Não guardo.');
+          else flash('Não deu para guardar agora.');
+          if(S.tab==='ajustes') render();
+        })
+        .catch(function(){ flash('Não deu para guardar agora.'); });
+      return}
+    if(d.act==='mem-apagar'){
+      if(view.memApagar!==d.id){ view.memApagar=d.id; render(); return }
+      fetch('/api/memoria',{method:'DELETE',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:d.id})})
+        .then(function(r){ if(r.status===401){location.href='/login';return null} return r.json() })
+        .then(function(j){
+          if(j&&j.ok){ view.memLista=(view.memLista||[]).filter(function(m){return m.id!==d.id}); view.memApagar=null; flash('Memória apagada'); }
+          else flash('Não deu para apagar agora.');
+          if(S.tab==='ajustes') render();
+        })
+        .catch(function(){ flash('Não deu para apagar agora.'); });
+      return}
+    if(d.act==='cmd-confirma'){
+      var cp=view.cmdProposta; if(!cp) return;
+      var okCmd=false;
+      if(cp.tipo==='movimento'&&cp.movimento){
+        var mv=cp.movimento;
+        okCmd=aplicarMovimento(mv.caixinha, mv.tipo, mv.valor, mv.motivo||'', 'manual');
+        if(okCmd&&mv.tipo==='retirada') preencherMexeu(mv.motivo||'Retirada manual');
+        if(okCmd) flash(mv.tipo==='retirada'?'Retirada registrada. O check-in desta semana ficou marcado; falta salvar.':'Depósito registrado');
+      } else if(cp.tipo==='compra'&&cp.compra){
+        var alvo=null;
+        (S.ativos||[]).forEach(function(a){ if(String(a.t).toUpperCase()===String(cp.compra.ticker||'').toUpperCase()) alvo=a });
+        okCmd=registrarCompra(alvo, num(cp.compra.quantidade), num(cp.compra.preco));
+        if(okCmd) flash('Compra registrada');
+        else flash('Esse ativo não está no Mercado.');
+      } else if(cp.tipo==='retorno'&&cp.retorno&&num(cp.retorno.valor)>0){
+        var negNome=cp.retorno.negocio;
+        if((S.negocios||[]).indexOf(negNome)<0){ flash('Esse negócio não está mais na lista.'); return }
+        if(!Array.isArray(S.movs)) S.movs=[];
+        S.movs.push({id:'m'+(S.seq++), neg:negNome, tipo:'ret', valor:num(cp.retorno.valor), data:cp.retorno.data||ymd(today()), nota:''});
+        okCmd=true; flash('Retorno registrado');
+      }
+      if(!okCmd){ if(!view.cmdResposta) view.cmdResposta='Não deu para registrar.'; render(); return }
+      view.cmdProposta=null;
+      view.cmdTexto='';
+      commit();
+      return}
     if(d.act==='mural-abrir'){view.mural=true;render();window.scrollTo(0,0);return}
+    if(d.act==='sonho-novo'){view.mural=true;render();var nomeNovo=document.getElementById('sonhoNome'); if(nomeNovo){ nomeNovo.scrollIntoView({block:'center',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}); nomeNovo.focus(); } return}
     if(d.act==='mural-fechar'){view.mural=false;render();window.scrollTo(0,0);return}
+    if(d.act==='sonho-mais'){guardarSonho('s'+Date.now(),'Novo sonho','','',0); flash('Quadro adicionado.'); return}
+    if(d.act==='sonho-menos'){var extras=sonhosExtras(); if(!extras.length){flash('O lance, o apartamento e o carro continuam no mural.');return} var ultimo=extras[extras.length-1]; S.sonhos=(S.sonhos||[]).filter(function(s){return !s||s.id!==ultimo.id}); commit(); flash('Quadro removido.'); return}
     if(d.act==='sonho-add'){var nomeEl=document.getElementById('sonhoNome'), metaEl=document.getElementById('sonhoMeta'), caixaEl=document.getElementById('sonhoCaixa');
       var nome=nomeEl?String(nomeEl.value).trim():'', meta=num(metaEl?metaEl.value:0), caixa=caixaEl?caixaEl.value:'reserva';
       if(!nome||!(meta>0)){flash('Diga o nome e a meta do sonho.');return}
@@ -1434,33 +2408,147 @@
       if(!Array.isArray(S.escolhas)) S.escolhas=[];
       S.saldos[caixa]=Math.round((num(S.saldos[caixa])+out.valor)*100)/100;
       S.escolhas.push({data:ymd(today()),valor:Math.round(out.valor*100)/100,descricao:out.desc||'',caixinha:caixa});
+      anotarCaixa(caixa,'deposito',out.valor,ymd(today()),out.desc||'Escolha de guardar','escolha');
       motion.escolha=true;
       view.desejoOpen=false;view.desejoOut=null;view.desejoPick=false;
       commit();flash('Guardado.');return}
-    if(d.act==='comprei'){var al=arcaAlloc();['A','R','C','I'].forEach(function(k,i){S.saldos[k]+=al[i]});S.saldos.arcaInvestir=0;round();commit();flash('Compra registrada');return}
-    if(d.act==='div'){var v=num(document.getElementById('divIn').value); if(v>0){S.saldos.dividendos+=v;S.saldos.arcaInvestir+=v;round();commit();flash('Dividendo registrado')}return}
+    if(d.act==='comprei'){var al=arcaAlloc(), saiuArca=num(S.saldos.arcaInvestir);['A','R','C','I'].forEach(function(k,i){S.saldos[k]+=al[i]});S.saldos.arcaInvestir=0;round();anotarCaixa('arcaInvestir','retirada',saiuArca,ymd(today()),'Compra da ARCA','compra_arca');commit();flash('Compra registrada');return}
+    if(d.act==='div'){var v=num(document.getElementById('divIn').value); if(v>0){S.saldos.dividendos+=v;S.saldos.arcaInvestir+=v;round();anotarCaixa('arcaInvestir','deposito',v,ymd(today()),'Dividendo','dividendo');commit();flash('Dividendo registrado')}return}
+    if(d.act==='cx-hist'){view.cxHist=d.cx;view.cxTipo='todos';render();window.scrollTo(0,0);return}
+    if(d.act==='cx-voltar'){view.cxHist='';render();return}
+    if(d.act==='cx-tipo'){view.cxTipo=d.tipo||'todos';render();return}
+    if(d.act==='cx-form'){view.cxForm=d.cx+'|'+d.tipo;view.cxPend=null;render();return}
+    if(d.act==='cx-cancela'){view.cxPend=null;render();return}
+    if(d.act==='cx-ok'){
+      var valorCx=num((document.getElementById('cxv')||{}).value), motivoCx=String((document.getElementById('cxm')||{}).value||'').trim();
+      if(!(valorCx>0)){flash('Informe um valor maior que zero.');return}
+      if(d.tipo==='retirada'&&d.cx!=='arcaInvestir'&&!motivoCx){flash('Diga o motivo da retirada.');return}
+      if(d.tipo==='deposito'){
+        if(aplicarMovimento(d.cx,'deposito',valorCx,motivoCx,'manual')){view.cxForm='';commit();flash('Depósito registrado')}
+        return}
+      var ritmo=ritmoSemanal(d.cx);
+      view.cxPend={id:d.cx, valor:Math.round(valorCx*100)/100, motivo:motivoCx, dias:ritmo>0?Math.max(1,Math.round(valorCx/ritmo*7)):null};
+      render();return}
+    if(d.act==='cx-confirma'){
+      var pend=view.cxPend; if(!pend)return;
+      if(aplicarMovimento(pend.id,'retirada',pend.valor,pend.motivo,'manual')){
+        preencherMexeu(pend.motivo||'Retirada manual');
+        view.cxPend=null;view.cxForm='';
+        commit();flash('Retirada registrada. O check-in desta semana ficou marcado; falta salvar.');
+      }
+      return}
+    if(d.act==='cx-conf'){view.cxConf=!view.cxConf;view.cxDiff=null;render();return}
+    if(d.act==='cx-comparar'){
+      view.cxDiff=CAIXAS.map(function(c){
+        var app=num((document.getElementById('cxn-'+c.id)||{}).value), portal=num(S.saldos[c.id]);
+        return {id:c.id, app:app, portal:portal, igual:Math.abs(app-portal)<0.01};
+      });
+      if(view.cxDiff.every(function(x){return x.igual})){
+        S.conferencia={data:ymd(today()), ok:true};
+        view.cxConf=false;view.cxDiff=null;commit();flash('Conferência feita. Os valores batem.');
+      } else render();
+      return}
+    if(d.act==='cx-ajustar'){
+      var item=(view.cxDiff||[]).filter(function(x){return x.id===d.cx})[0];
+      if(!item)return;
+      var delta=Math.round((item.app-num(S.saldos[d.cx]))*100)/100;
+      if(Math.abs(delta)>=0.01){
+        if(delta>0) aplicarMovimento(d.cx,'deposito',delta,'Ajuste de conferência','manual');
+        else aplicarMovimento(d.cx,'retirada',-delta,'Ajuste de conferência','manual');
+      }
+      item.portal=num(S.saldos[d.cx]); item.igual=Math.abs(item.app-item.portal)<0.01;
+      if(view.cxDiff.every(function(x){return x.igual})){
+        S.conferencia={data:ymd(today()), ok:true};
+        view.cxConf=false;view.cxDiff=null;commit();flash('Portal ajustado ao app.');
+      } else { commit(); render() }
+      return}
+    if(d.act==='cx-contas'){
+      if(!Array.isArray(S.outrasContas)) S.outrasContas=[];
+      S.outrasContas.forEach(function(c,i){
+        var nomeEl=document.getElementById('cxo-nome-'+i), funEl=document.getElementById('cxo-fun-'+i), salEl=document.getElementById('cxo-saldo-'+i);
+        c.nome=nomeEl?String(nomeEl.value).trim():c.nome;
+        c.funcao=funEl?String(funEl.value).trim():(c.funcao||'');
+        c.saldo=salEl?num(salEl.value):num(c.saldo);
+      });
+      commit();flash('Contas salvas');return}
+    if(d.act==='cx-conta-add'){if(!Array.isArray(S.outrasContas)) S.outrasContas=[];S.outrasContas.push({nome:'',funcao:'',saldo:0});commit();return}
     if(d.ai){perguntar(d.ai);return}
     if(d.act==='aistop'){if(aiCtl)aiCtl.abort();return}
+    if(d.act==='ai-cancela'){
+      view.aiPropostas=(view.aiPropostas||[]).filter(function(_,idx){return idx!==+d.i});
+      render(); return}
+    if(d.act==='ai-confirma'){
+      var prop=(view.aiPropostas||[])[+d.i];
+      if(!prop) return;
+      var okProp=false;
+      if(prop.tipo==='movimento'&&prop.movimento){
+        var mv=prop.movimento;
+        okProp=aplicarMovimento(mv.caixinha, mv.tipo, mv.valor, mv.motivo||'', 'manual');
+        if(okProp&&mv.tipo==='retirada') preencherMexeu(mv.motivo||'Retirada manual');
+        if(okProp) flash(mv.tipo==='retirada'?'Retirada registrada. O check-in desta semana ficou marcado; falta salvar.':'Depósito registrado');
+      } else if(prop.tipo==='checkin'&&prop.checkin&&/^\d{4}-\d{2}-\d{2}$/.test(prop.checkin.sabado||'')){
+        var camposCi={};
+        ['gastos','extra','mexeu','motivo','negocios','vitoria','escorreguei','foraNormal','extraOrigem'].forEach(function(k){
+          var val=prop.checkin.campos&&prop.checkin.campos[k];
+          if(val!=null&&val!=='') camposCi[k]=val;
+        });
+        S.checkins[prop.checkin.sabado]=Object.assign({mexeu:'não'}, S.checkins[prop.checkin.sabado]||{}, camposCi);
+        okProp=true; flash('Check-in salvo ✓');
+      } else if(prop.tipo==='meta'&&prop.meta&&{reservaMeta:1,lanceMeta:1,aptoMeta:1,carroMeta:1,lanceMensal:1}[prop.meta.chave]&&num(prop.meta.valor)>0){
+        S.cfg[prop.meta.chave]=num(prop.meta.valor);
+        okProp=true; flash('Meta atualizada');
+      }
+      if(!okProp){ flash('Não deu para registrar.'); return }
+      view.aiPropostas=(view.aiPropostas||[]).filter(function(_,idx){return idx!==+d.i});
+      commit(); return}
     if(d.act==='usemeta'){var meta=num(d.meta); if(meta>0){S.cfg.reservaMeta=meta;commit();flash('Meta da reserva atualizada')} return}
+    if(d.bolsa){
+      view.bolsaTipo=view.bolsaTipo===d.bolsa?'':d.bolsa;
+      view.bolsaPage=1;
+      document.querySelectorAll('[data-bolsa]').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.bolsa===view.bolsaTipo?'true':'false') });
+      carregarBolsa(false);
+      return}
+    if(d.act==='bolsa-mais'){ if(!view.bolsaMais) return; view.bolsaPage=(view.bolsaPage||1)+1; carregarBolsa(true); return }
+    if(d.act==='bolsa-add'){
+      var item=(view.bolsaItens||[])[+d.i];
+      if(!item) return;
+      if(S.ativos.some(function(a){ return String(a.t).toUpperCase()===item.t })){ flash('Esse ativo já está no painel'); return }
+      var preco=num(item.preco);
+      S.ativos.push({t:item.t,l:'',nome:item.nome,classe:item.classe,tipo:item.tipo,qtd:0,pm:0,preco:preco,hist:preco>0?[{d:ymd(today()),p:preco}]:[],livre:true});
+      commit(); flash(item.t+' incluído em '+item.tipoNome); return}
+    if(d.act==='merc-novo'){view.mercNovo=!view.mercNovo; if(!view.mercNovo){ view.bolsaMsg=''; } render(); if(view.mercNovo){ var bq=document.getElementById('bolsaQ'); if(bq) bq.focus() } return}
+    if(d.act==='ativo-add'){
+      var nvC=document.getElementById('nvClasse'), nvTp=document.getElementById('nvTipo'), nvTk=document.getElementById('nvT'), nvNm=document.getElementById('nvN'), nvL=document.getElementById('nvL');
+      var classe=nvC?nvC.value:'rv', tipo=nvTp?nvTp.value:'', ticker=String(nvTk?nvTk.value:'').trim().toUpperCase().replace(/\s+/g,' '), nome=String(nvNm?nvNm.value:'').trim(), letra=nvL?nvL.value:'';
+      if(!ticker){flash('Digite o código do ativo');return}
+      if(!infoTipo(classe,tipo).tid||infoTipo(classe,tipo).tid!==tipo){flash('Escolha a classe e o tipo');return}
+      if(S.ativos.some(function(a){return String(a.t).toUpperCase()===ticker})){flash('Esse ativo já está no painel');return}
+      if(['A','R','C','I'].indexOf(letra)<0) letra='';
+      S.ativos.push({t:ticker,l:letra,nome:nome||ticker,classe:classe,tipo:tipo,qtd:0,pm:0,preco:0,hist:[],livre:true});
+      commit(); flash('Ativo incluído em '+infoTipo(classe,tipo).classe+' · '+infoTipo(classe,tipo).tipo); return}
+    if(d.act==='ativo-tirar'){
+      var ix=+d.i, alvo=S.ativos[ix];
+      if(!alvo||!alvo.livre||alvo.qtd>0){flash('Só dá para tirar um ativo incluído por você, com quantidade zerada');return}
+      var chaveAt='at:'+ix; if(pendingDel!==chaveAt){pendingDel=chaveAt;render();return}
+      S.ativos.splice(ix,1); pendingDel=null; commit(); flash('Ativo tirado'); return}
     if(d.act==='venda'){var vi=+document.getElementById('vdAt').value, vq=num(document.getElementById('vdQ').value), vp=num(document.getElementById('vdP').value), vat=S.ativos[vi];
-      if(!(vq>0&&vp>0)||!vat){flash('Digite cotas e preço');return}
-      if(vq>vat.qtd+1e-9){flash('Cotas acima da posição');return}
+      if(!(vq>0&&vp>0)||!vat){flash('Digite a quantidade e o preço');return}
+      if(vq>vat.qtd+1e-9){flash('Quantidade acima da posição');return}
       var bruto=Math.round(vq*vp*100)/100;
       vat.qtd=Math.round((vat.qtd-vq)*10000)/10000;
       if(vat.qtd<=0){vat.qtd=0;vat.pm=0}
-      S.saldos[vat.l]=Math.max(0,Math.round((S.saldos[vat.l]-bruto)*100)/100);
+      if(['A','R','C','I'].indexOf(vat.l)>=0) S.saldos[vat.l]=Math.max(0,Math.round((S.saldos[vat.l]-bruto)*100)/100);
       S.saldos.arcaInvestir=Math.round((S.saldos.arcaInvestir+bruto)*100)/100;
       setPreco(vat,vp); commit(); flash('Venda registrada'); return}
     if(d.act==='compra'){var ai=+document.getElementById('cpAt').value, q=num(document.getElementById('cpQ').value), pr=num(document.getElementById('cpP').value);
-      if(!(q>0&&pr>0)){flash('Digite cotas e preço');return}
-      var at=S.ativos[ai]; at.pm=(at.qtd*at.pm+q*pr)/(at.qtd+q); at.qtd=Math.round((at.qtd+q)*10000)/10000; at.pm=Math.round(at.pm*100)/100; if(!at.preco){at.preco=pr; at.hist=[{d:ymd(today()),p:pr}]} commit(); flash('Compra registrada'); return}
-    if(d.act==='quotes'){var tks=S.ativos.filter(function(a){return /^[A-Z]{4}\d{1,2}$/.test(a.t)}).map(function(a){return a.t});
+      var at=S.ativos[ai]; if(!registrarCompra(at,q,pr)){flash(!at?'Escolha o ativo':'Digite a quantidade e o preço');return} commit(); flash('Compra registrada'); return}
+    if(d.act==='quotes'){var tks=S.ativos.filter(function(a){return /^[A-Z0-9]{4,8}$/.test(a.t)}).map(function(a){return a.t});
       flash('Buscando cotações…');
       fetch('/api/quotes?tickers='+tks.join(',')).then(function(r){if(r.status===401){location.href='/login';throw 0}return r.json()}).then(function(j){
         var n=0; S.ativos.forEach(function(a){var q=j.quotes&&j.quotes[a.t]; if(q&&q.price>0){setPreco(a,q.price); n++}});
-        S.ultimaCotacao=new Date().toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}); commit(); flash(n?n+' cotações atualizadas':'Nenhuma cotação recebida. Confira o BRAPI_TOKEN.');
+        S.ultimaCotacao=new Date().toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}); commit(); flash(n?n+' cotações atualizadas':(j.error||'Nenhuma cotação recebida. Confira a chave da brapi no servidor.'));
       }).catch(function(e){if(e!==0)flash('Não foi possível buscar as cotações')}); return}
-    if(d.act==='sync'){var sums={A:0,R:0,C:0,I:0}; S.ativos.forEach(function(a){sums[a.l]+=a.qtd*a.preco}); ['A','R','C','I'].forEach(function(k){S.saldos[k]=Math.round(sums[k]*100)/100}); commit(); flash('Saldos da ARCA atualizados'); return}
+    if(d.act==='sync'){var sums={A:0,R:0,C:0,I:0}; S.ativos.forEach(function(a){ if(sums[a.l]!=null) sums[a.l]+=a.qtd*a.preco }); ['A','R','C','I'].forEach(function(k){S.saldos[k]=Math.round(sums[k]*100)/100}); commit(); flash('Saldos da ARCA atualizados'); return}
     if(d.act==='addmov'){var val=num(document.getElementById('mVal').value); if(!(val>0)){flash('Digite um valor');return}
       S.movs.push({id:'m'+(S.seq++),neg:document.getElementById('mNeg').value,tipo:view.movTipo,valor:val,data:document.getElementById('mData').value||ymd(today()),nota:document.getElementById('mNota').value.trim()});commit();flash('Registrado');return}
     if(d.act==='addneg'){var nm=document.getElementById('novoNeg').value.trim(); if(nm&&S.negocios.indexOf(nm)<0){S.negocios.push(nm);commit()}return}
@@ -1486,9 +2574,10 @@
       var antes=JSON.stringify(S.bandaFora||{});
       atualizarBanda();
       render();
+      armarLembrete();
       if(!tinha||JSON.stringify(S.bandaFora||{})!==antes) save();
     })
-    .catch(function(e){ if(e===0) return; adotarLocal(); loaded=true; mode='local'; atualizarBanda(); render(); flash('Sem conexão com o servidor. Alterações ficam neste navegador.'); });
+    .catch(function(e){ if(e===0) return; adotarLocal(); loaded=true; mode='local'; atualizarBanda(); render(); armarLembrete(); flash('Sem conexão com o servidor. Alterações ficam neste navegador.'); });
   fetch('/sabedoria.json').then(function(r){ if(!r.ok) throw 0; return r.json() }).then(function(j){
     if(!Array.isArray(j)||!j.length) return;
     SAB=j; if(loaded) render();

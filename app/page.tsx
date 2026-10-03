@@ -9,7 +9,7 @@ export default function Home() {
       </nav>
       <main className="wrap" id="root" />
       <div className="status" id="status" role="status" aria-live="polite" />
-      <Script src="/portal.js?v=5" strategy="afterInteractive" />
+      <Script src="/portal.js?v=27" strategy="afterInteractive" />
     </>
   );
 }

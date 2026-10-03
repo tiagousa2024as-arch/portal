@@ -14,7 +14,7 @@ function jpeg(bytes: Uint8Array) {
   return new NextResponse(new Blob([copy], { type: "image/jpeg" }), {
     headers: {
       "Content-Type": "image/jpeg",
-      "Cache-Control": "private, max-age=300",
+      "Cache-Control": "private, no-cache",
     },
   });
 }

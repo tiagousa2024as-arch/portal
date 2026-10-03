@@ -5,14 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "node --experimental-strip-types --test lib/brapi.test.ts lib/bolsa.test.ts lib/insights/engine.test.ts lib/agent/ferramentas.test.ts lib/agent/avaliar.test.ts lib/agent/uso.test.ts lib/comando/validar.test.ts lib/memoria/validar.test.ts lib/briefing/montar.test.ts lib/avisos/decidir.test.ts",
+    "eval": "node --experimental-strip-types scripts/eval-agent.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "latest",
     "@supabase/supabase-js": "^2",
     "next": "^15",
     "react": "^19",
-    "react-dom": "^19"
+    "react-dom": "^19",
+    "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@types/node": "^22",
